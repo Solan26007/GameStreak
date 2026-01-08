@@ -5,7 +5,7 @@
     android:id="@+id/scrollMovieDetail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#030213"
+    android:background="@drawable/bg_app_gradient"
     android:padding="16dp"
     tools:context=".ui.detalle.DetallePeliculaFragment">
 
@@ -23,60 +23,69 @@
             android:contentDescription="@string/poster_big_desc"
             android:src="@mipmap/ic_launcher" />
 
-        <TextView
-            android:id="@+id/txtMovieTitleDetail"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/movie_title_placeholder"
-            android:textColor="@android:color/white"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_marginTop="12dp" />
+            android:background="@drawable/bg_section_card"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="12dp">
 
-        <TextView
-            android:id="@+id/txtMovieMetaDetail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/movie_meta_placeholder"
-            android:textColor="#9CA3AF"
-            android:textSize="13sp"
-            android:layout_marginTop="4dp" />
+            <TextView
+                android:id="@+id/txtMovieTitleDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/movie_title_placeholder"
+                android:textColor="@color/text_primary"
+                android:textSize="22sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/txtMoviePlatformsDetail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/movie_platforms_placeholder"
-            android:textColor="#FACC15"
-            android:textStyle="bold"
-            android:textSize="13sp"
-            android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/txtMovieMetaDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/movie_meta_placeholder"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/txtMoviePlatformsDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/movie_platforms_placeholder"
+                android:textColor="@color/text_primary"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/txtSectionSynopsis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/section_synopsis"
-            android:textColor="@android:color/white"
+            android:textColor="@color/text_primary"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:id="@+id/txtMovieSynopsis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/movie_synopsis_placeholder"
-            android:textColor="#D1D5DB"
+            android:textColor="@color/text_secondary"
             android:textSize="14sp"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="6dp" />
 
         <TextView
             android:id="@+id/txtSectionTags"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/section_tags"
-            android:textColor="@android:color/white"
+            android:textColor="@color/text_primary"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -107,26 +116,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
+            android:orientation="vertical"
             android:layout_marginTop="24dp">
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnAddToWatchlist"
-            style="@style/Widget.MaterialComponents.Button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/watchlist_button_label" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddToWatchlist"
+                style="@style/AppButton.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/watchlist_button_label" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnDislike"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginStart="8dp"
-            android:text="@string/dislike_button_label" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDislike"
+                style="@style/AppButton.Outline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/dislike_button_label" />
 
         </LinearLayout>
 

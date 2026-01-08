@@ -57,7 +57,7 @@ public class DetallePeliculaFragment extends Fragment {
 
         pelicula = (Pelicula) (getArguments() != null ? getArguments().getSerializable(ARG_PELICULA) : null);
         if (pelicula == null) {
-            Toast.makeText(requireContext(), "No se pudo cargar la película", Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), "No se pudo cargar el videojuego", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -72,7 +72,7 @@ public class DetallePeliculaFragment extends Fragment {
 
         txtTitulo.setText(pelicula.getTitulo());
         String generosTexto = pelicula.getGeneros() != null ? String.join(", ", pelicula.getGeneros()) : "";
-        String meta = String.format(Locale.getDefault(), "%d · %dm · %s", pelicula.getAnio(), pelicula.getDuracionMin(), generosTexto);
+        String meta = String.format(Locale.getDefault(), "%d · %d min · %s", pelicula.getAnio(), pelicula.getDuracionMin(), generosTexto);
         txtMeta.setText(meta);
         String plataformasTexto = pelicula.getPlataformas() != null ? String.join(", ", pelicula.getPlataformas()) : "";
         txtPlataformas.setText(String.format(Locale.getDefault(), "Disponible en: %s", plataformasTexto));

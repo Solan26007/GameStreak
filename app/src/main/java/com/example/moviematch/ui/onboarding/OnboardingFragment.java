@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -15,8 +17,6 @@ import com.example.moviematch.R;
 import com.example.moviematch.datos.preferencias.GestorPreferenciasUsuario;
 import com.example.moviematch.datos.preferencias.PreferenciasUsuario;
 import com.google.android.material.button.MaterialButton;
-import com.google.android.material.chip.Chip;
-import com.google.android.material.chip.ChipGroup;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,20 +40,20 @@ public class OnboardingFragment extends Fragment {
         executorService = Executors.newSingleThreadExecutor();
         gestorPreferenciasUsuario = ((ActividadPrincipal) requireActivity()).obtenerGestorPreferenciasUsuario();
 
-        ChipGroup chipGroupGeneros = view.findViewById(R.id.chipGroupGenres);
-        ChipGroup chipGroupPlataformas = view.findViewById(R.id.chipGroupPlatforms);
-        ChipGroup chipGroupEvitar = view.findViewById(R.id.chipGroupAvoid);
+        LinearLayout layoutGeneros = view.findViewById(R.id.layoutGenres);
+        LinearLayout layoutPlataformas = view.findViewById(R.id.layoutPlatforms);
+        LinearLayout layoutEvitar = view.findViewById(R.id.layoutAvoid);
         MaterialButton btnContinuar = view.findViewById(R.id.btnFinishOnboarding);
         MaterialButton btnSaltar = view.findViewById(R.id.btnSkipOnboarding);
 
-        btnContinuar.setOnClickListener(v -> guardarPreferencias(chipGroupGeneros, chipGroupPlataformas, chipGroupEvitar));
+        btnContinuar.setOnClickListener(v -> guardarPreferencias(layoutGeneros, layoutPlataformas, layoutEvitar));
         btnSaltar.setOnClickListener(v -> {
             gestorPreferenciasUsuario.marcarOnboardingCompletado(true);
             ((ActividadPrincipal) requireActivity()).irAInicio();
         });
     }
 
-    private void guardarPreferencias(ChipGroup generos, ChipGroup plataformas, ChipGroup evitar) {
+    private void guardarPreferencias(LinearLayout generos, LinearLayout plataformas, LinearLayout evitar) {
         executorService.execute(() -> {
             PreferenciasUsuario preferenciasUsuario = new PreferenciasUsuario();
             preferenciasUsuario.setGeneros(obtenerTextosSeleccionados(generos));
@@ -72,14 +72,14 @@ public class OnboardingFragment extends Fragment {
         });
     }
 
-    private List<String> obtenerTextosSeleccionados(ChipGroup chipGroup) {
+    private List<String> obtenerTextosSeleccionados(LinearLayout contenedor) {
         List<String> seleccionados = new ArrayList<>();
-        for (int i = 0; i < chipGroup.getChildCount(); i++) {
-            View hijo = chipGroup.getChildAt(i);
-            if (hijo instanceof Chip) {
-                Chip chip = (Chip) hijo;
-                if (chip.isChecked()) {
-                    seleccionados.add(chip.getText().toString());
+        for (int i = 0; i < contenedor.getChildCount(); i++) {
+            View hijo = contenedor.getChildAt(i);
+            if (hijo instanceof CheckBox) {
+                CheckBox checkBox = (CheckBox) hijo;
+                if (checkBox.isChecked()) {
+                    seleccionados.add(checkBox.getText().toString());
                 }
             }
         }

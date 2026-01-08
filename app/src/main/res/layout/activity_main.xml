@@ -28,10 +28,10 @@
                 android:paddingStart="8dp"
                 android:paddingEnd="8dp"
                 android:visibility="visible"
-                app:navigationIconTint="@android:color/white"
+                app:navigationIconTint="@color/text_primary"
                 app:title=""
                 app:titleCentered="true"
-                app:titleTextColor="@android:color/white" />
+                app:titleTextColor="@color/text_primary" />
         </com.google.android.material.appbar.AppBarLayout>
 
         <FrameLayout
@@ -47,10 +47,12 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="@color/bg_main_start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
-        app:itemIconTint="@color/text_secondary"
-        app:itemTextColor="@color/text_primary"
+        app:itemIconTint="@color/nav_item_icon"
+        app:itemTextColor="@color/nav_item_text"
+        app:itemBackground="@drawable/bg_nav_item"
         app:menu="@menu/menu_navigation" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

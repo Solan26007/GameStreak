@@ -18,6 +18,10 @@
             android:icon="@android:drawable/star_big_on"
             android:title="@string/nav_watchlist" />
         <item
+            android:id="@+id/nav_top_genres"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/nav_top_genres" />
+        <item
             android:id="@+id/nav_group"
             android:icon="@android:drawable/ic_menu_share"
             android:title="@string/nav_group" />
