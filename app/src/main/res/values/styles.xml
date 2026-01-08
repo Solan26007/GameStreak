@@ -19,7 +19,7 @@
     <style name="AppButton.Primary" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/bg_button_primary_gradient</item>
         <item name="backgroundTint">@null</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">@color/text_on_accent</item>
         <item name="android:insetLeft">0dp</item>
         <item name="android:insetRight">0dp</item>
         <item name="android:insetTop">0dp</item>
@@ -30,7 +30,7 @@
     <style name="AppButton.Outline" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/bg_button_outline</item>
         <item name="backgroundTint">@null</item>
-        <item name="android:textColor">@color/accent_cyan</item>
+        <item name="android:textColor">@color/text_primary</item>
         <item name="android:insetLeft">0dp</item>
         <item name="android:insetRight">0dp</item>
         <item name="android:insetTop">0dp</item>

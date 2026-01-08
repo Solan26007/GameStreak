@@ -8,18 +8,28 @@
     android:background="@drawable/bg_app_gradient"
     tools:context=".ui.verdespues.VerDespuesFragment">
 
-    <TextView
-        android:id="@+id/txtWatchlistTitle"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/layoutWatchlistHeader"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/watchlist_title"
-        android:textColor="@color/text_primary"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_section_card"
+        android:padding="12dp"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtWatchlistTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/watchlist_title"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerWatchlist"
@@ -28,7 +38,7 @@
         android:padding="16dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/item_movie"
-        app:layout_constraintTop_toBottomOf="@id/txtWatchlistTitle"
+        app:layout_constraintTop_toBottomOf="@id/layoutWatchlistHeader"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

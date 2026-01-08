@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="bg_main_start">#240046</color>
-    <color name="bg_main_end">#00D2FF</color>
+    <color name="bg_main_end">#8000D2FF</color>
     <color name="chip_bg">#240046</color>
     <color name="chip_border">#FF007F</color>
-    <color name="text_primary">#FFEE00</color>
-    <color name="text_secondary">#00D2FF</color>
+    <color name="text_primary">#E6FFEE00</color>
+    <color name="text_secondary">#B300D2FF</color>
     <color name="accent_cyan">#00D2FF</color>
     <color name="accent_purple">#FF007F</color>
     <color name="button_outline_bg">#240046</color>
+    <color name="text_on_accent">#240046</color>
     <color name="black">#240046</color>
     <color name="white">#FFEE00</color>
 </resources>
