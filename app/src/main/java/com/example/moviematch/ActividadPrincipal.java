@@ -24,6 +24,7 @@ import com.example.moviematch.ui.inicio.InicioFragment;
 import com.example.moviematch.ui.modogrupo.ModoGrupoFragment;
 import com.example.moviematch.ui.onboarding.OnboardingFragment;
 import com.example.moviematch.ui.recomendaciones.RecomendacionesFragment;
+import com.example.moviematch.ui.topgeneros.TopGenerosFragment;
 import com.example.moviematch.ui.verdespues.VerDespuesFragment;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
@@ -105,6 +106,8 @@ public class ActividadPrincipal extends AppCompatActivity {
             irAOnboarding();
         } else if (itemId == R.id.nav_watchlist) {
             irAVerDespues();
+        } else if (itemId == R.id.nav_top_genres) {
+            irATopGeneros();
         } else if (itemId == R.id.nav_group) {
             irAModoGrupo();
         }
@@ -162,6 +165,11 @@ public class ActividadPrincipal extends AppCompatActivity {
     public void irAModoGrupo() {
         resaltarMenu(R.id.nav_group);
         mostrarFragmento(new ModoGrupoFragment(), true);
+    }
+
+    public void irATopGeneros() {
+        resaltarMenu(R.id.nav_top_genres);
+        mostrarFragmento(new TopGenerosFragment(), true);
     }
 
     private void resaltarMenu(int itemId) {

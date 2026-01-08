@@ -64,6 +64,7 @@
     <string name="nav_onboarding">Mis preferencias</string>
     <string name="nav_watchlist">Mis pendientes</string>
     <string name="nav_group">Modo grupo</string>
+    <string name="nav_top_genres">Top 5 por género</string>
     <string name="nav_subtitle">Encuentra el juego perfecto</string>
     <string name="navigation_drawer_open">Abrir menú de navegación</string>
     <string name="navigation_drawer_close">Cerrar menú de navegación</string>
@@ -72,6 +73,21 @@
     <string name="welcome_subtitle">Bienvenido/a a GameStreak. Descubre recomendaciones personalizadas, guarda tus favoritos y explora en modo grupo sin salir de aquí.</string>
     <string name="welcome_start_button">Empezar</string>
     <string name="welcome_onboarding_hint">Ajustaremos tus preferencias si aún no las has configurado.</string>
+
+    <string name="top_genres_title">Top 5 por género</string>
+    <string name="top_genres_subtitle">Elige un género para ver los 5 mejores videojuegos.</string>
+    <string name="top_genres_label">Género</string>
+    <string name="top_genres_empty">No hay resultados para este género.</string>
+    <string name="top_genres_count">Top 5</string>
+
+    <string-array name="game_genres">
+        <item>@string/genre_action</item>
+        <item>@string/genre_comedy</item>
+        <item>@string/genre_drama</item>
+        <item>@string/genre_horror</item>
+        <item>@string/genre_scifi</item>
+        <item>@string/genre_romance</item>
+    </string-array>
 
     <string name="group_title">Modo grupo</string>
     <string name="group_subtitle">Crea una sala, comparte el código con tus amigos y voten juntos por el videojuego perfecto.</string>
