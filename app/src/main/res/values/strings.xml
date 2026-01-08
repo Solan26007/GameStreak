@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MoviesMatch</string>
+
+    <string name="poster_big_desc">Póster grande de película</string>
+    <string name="movie_title_placeholder">Título de la película</string>
+    <string name="movie_meta_placeholder">2024 · 1h 45m · Acción · +13</string>
+    <string name="movie_platforms_placeholder">Disponible en: Netflix</string>
+    <string name="section_synopsis">Sinopsis</string>
+    <string name="movie_synopsis_placeholder">Aquí va la descripción de la película...</string>
+    <string name="section_tags">Mood / etiquetas</string>
+    <string name="tag_fun">Divertida</string>
+    <string name="tag_light">Ligera</string>
+    <string name="watchlist_button_label">Ver después</string>
+    <string name="dislike_button_label">No me interesa</string>
+
+    <string name="home_title">¿Qué vemos hoy?</string>
+    <string name="home_subtitle">Elige tu tiempo, mood y compañía y yo hago la magia.</string>
+    <string name="home_time_label">• Tiempo disponible</string>
+    <string name="home_time_30">30 min</string>
+    <string name="home_time_60">1 h</string>
+    <string name="home_time_90">1.5 h</string>
+    <string name="home_time_120">2 h+</string>
+    <string name="home_mood_label">• Estado de ánimo</string>
+    <string name="home_mood_relax">😴 Relax</string>
+    <string name="home_mood_laugh">😂 Risa</string>
+    <string name="home_mood_think">🧠 Pensar</string>
+    <string name="home_mood_scare">😱 Susto</string>
+    <string name="home_company_label">• ¿Con quién estás?</string>
+    <string name="home_company_solo">Solo</string>
+    <string name="home_company_couple">Pareja</string>
+    <string name="home_company_friends">Amigos</string>
+    <string name="home_company_family">Familia</string>
+    <string name="home_search_button">Buscar película</string>
+    <string name="home_group_mode_button">Modo grupo</string>
+
+    <string name="results_title">Recomendaciones para ti</string>
+
+    <string name="onboarding_title">Configura tus recomendaciones</string>
+    <string name="onboarding_subtitle">Elige géneros, plataformas y cosas que quieres evitar.</string>
+    <string name="onboarding_genres_label">Géneros favoritos</string>
+    <string name="genre_action">Acción</string>
+    <string name="genre_comedy">Comedia</string>
+    <string name="genre_drama">Drama</string>
+    <string name="genre_horror">Terror</string>
+    <string name="genre_scifi">Sci-Fi</string>
+    <string name="genre_romance">Romance</string>
+    <string name="onboarding_platforms_label">Plataformas que tienes</string>
+    <string name="platform_netflix">Netflix</string>
+    <string name="platform_prime">Prime Video</string>
+    <string name="platform_disney">Disney+</string>
+    <string name="platform_hbo">HBO Max</string>
+    <string name="platform_apple">Apple TV+</string>
+    <string name="onboarding_avoid_label">¿Algo que quieras evitar?</string>
+    <string name="avoid_violence">Mucha violencia</string>
+    <string name="avoid_gore">Gore</string>
+    <string name="avoid_slow_movies">Películas lentas</string>
+    <string name="avoid_sad_endings">Finales tristes</string>
+    <string name="onboarding_skip">Saltar</string>
+    <string name="onboarding_continue">Continuar</string>
+
+    <string name="nav_welcome">Inicio</string>
+    <string name="nav_home">Recomendador</string>
+    <string name="nav_onboarding">Mis preferencias</string>
+    <string name="nav_watchlist">Mi watchlist</string>
+    <string name="nav_group">Modo grupo</string>
+    <string name="nav_subtitle">Encuentra la peli perfecta</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <string name="welcome_title">Tu guía para elegir peli</string>
+    <string name="welcome_subtitle">Bienvenido/a a MoviesMatch. Descubre recomendaciones personalizadas, guarda tus favoritas y explora en modo grupo sin salir de aquí.</string>
+    <string name="welcome_start_button">Empezar</string>
+    <string name="welcome_onboarding_hint">Ajustaremos tus preferencias si aún no las has configurado.</string>
+</resources>

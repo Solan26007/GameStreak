@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollOnboarding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_gradient"
+    android:padding="16dp"
+    tools:context=".ui.onboarding.OnboardingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- “Hero” superior -->
+        <TextView
+            android:id="@+id/txtWelcomeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_title"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtWelcomeSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Géneros -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_genres_label"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupGenres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleSelection="false"
+            app:chipSpacing="8dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipAccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/genre_action" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipComedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/genre_comedy" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipDrama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/genre_drama" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipTerror"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/genre_horror" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSciFi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/genre_scifi" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipRomance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/genre_romance" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Plataformas -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_platforms_label"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupPlatforms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleSelection="false"
+            app:chipSpacing="8dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipNetflix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/platform_netflix" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipPrime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/platform_prime" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipDisney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/platform_disney" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipHbo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/platform_hbo" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipApple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/platform_apple" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Cosas a evitar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_avoid_label"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupAvoid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleSelection="false"
+            app:chipSpacing="8dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipViolencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/avoid_violence" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipGore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/avoid_gore" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLentas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/avoid_slow_movies" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipFinalTriste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppChip.Dark"
+                android:text="@string/avoid_sad_endings" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="32dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSkipOnboarding"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/onboarding_skip" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFinishOnboarding"
+                style="@style/AppButton.Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/onboarding_continue"
+                android:textAllCaps="false"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

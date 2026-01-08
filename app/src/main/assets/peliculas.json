@@ -1,0 +1,222 @@
+[
+  {
+    "id": "pelicula_1",
+    "titulo": "Noche Estelar",
+    "anio": 2022,
+    "duracionMin": 98,
+    "generos": ["Sci-Fi", "Drama"],
+    "plataformas": ["Netflix", "Prime Video"],
+    "mood": "🧠 Pensar",
+    "sinopsis": "Una astronauta descubre un misterio en la órbita terrestre que pondrá en duda su misión y su pasado.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1.jpg"
+  },
+  {
+    "id": "pelicula_2",
+    "titulo": "Risas en CasaDis",
+    "anio": 2021,
+    "duracionMin": 95,
+    "generos": ["Comedia"],
+    "plataformas": ["Netflix"],
+    "mood": "😂 Risa",
+    "sinopsis": "Un grupo de amigos decide pasar el fin de semana encerrados para grabar sketches caseros.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2.jpg"
+  },
+  {
+    "id": "pelicula_3",
+    "titulo": "Silencio en la Niebla",
+    "anio": 2020,
+    "duracionMin": 102,
+    "generos": ["Terror", "Suspenso"],
+    "plataformas": ["HBO Max"],
+    "mood": "😱 Susto",
+    "sinopsis": "Un pueblo montañoso es acechado por presencias inexplicables cuando cae la niebla.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3.jpg"
+  },
+  {
+    "id": "pelicula_4",
+    "titulo": "Corazones en Fuga",
+    "anio": 2019,
+    "duracionMin": 110,
+    "generos": ["Romance", "Drama"],
+    "plataformas": ["Disney+"],
+    "mood": "😴 Relax",
+    "sinopsis": "Dos desconocidos se conocen en un viaje en tren y descubren un secreto que comparten.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4.jpg"
+  },
+  {
+    "id": "pelicula_5",
+    "titulo": "Código Roto",
+    "anio": 2023,
+    "duracionMin": 125,
+    "generos": ["Acción", "Sci-Fi"],
+    "plataformas": ["Prime Video"],
+    "mood": "🧠 Pensar",
+    "sinopsis": "Una hacker descubre una inteligencia artificial que amenaza con escapar al mundo real.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5.jpg"
+  },
+  {
+    "id": "pelicula_6",
+    "titulo": "Sueños de Barrio",
+    "anio": 2018,
+    "duracionMin": 87,
+    "generos": ["Comedia", "Drama"],
+    "plataformas": ["Netflix", "Disney+"],
+    "mood": "😂 Risa",
+    "sinopsis": "Un joven intenta salvar la panadería familiar organizando un concurso de talentos.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6.jpg"
+  },
+  {
+    "id": "pelicula_7",
+    "titulo": "Bajo el Agua",
+    "anio": 2022,
+    "duracionMin": 92,
+    "generos": ["Terror", "Acción"],
+    "plataformas": ["Prime Video"],
+    "mood": "😱 Susto",
+    "sinopsis": "Buzos en una misión científica quedan atrapados tras un derrumbe submarino.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7.jpg"
+  },
+  {
+    "id": "pelicula_8",
+    "titulo": "Cartas al Futuro",
+    "anio": 2021,
+    "duracionMin": 105,
+    "generos": ["Drama"],
+    "plataformas": ["HBO Max", "Apple TV+"],
+    "mood": "🧠 Pensar",
+    "sinopsis": "Una periodista encuentra cartas que predicen sucesos y decide investigar al autor anónimo.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8.jpg"
+  },
+  {
+    "id": "pelicula_9",
+    "titulo": "Fiesta de Medianoche",
+    "anio": 2017,
+    "duracionMin": 99,
+    "generos": ["Comedia", "Romance"],
+    "plataformas": ["Netflix"],
+    "mood": "😂 Risa",
+    "sinopsis": "Un plan sorpresa de cumpleaños se convierte en una aventura por toda la ciudad.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9.jpg"
+  },
+  {
+    "id": "pelicula_10",
+    "titulo": "Ruta de Tormentas",
+    "anio": 2024,
+    "duracionMin": 118,
+    "generos": ["Acción", "Drama"],
+    "plataformas": ["Disney+"],
+    "mood": "😴 Relax",
+    "sinopsis": "Un piloto de rescate debe tomar decisiones difíciles durante una temporada de huracanes.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/10.jpg"
+  },
+  {
+    "id": "pelicula_11",
+    "titulo": "Niebla Roja",
+    "anio": 2020,
+    "duracionMin": 90,
+    "generos": ["Terror"],
+    "plataformas": ["Apple TV+"],
+    "mood": "😱 Susto",
+    "sinopsis": "Una fotógrafa queda atrapada en un pueblo donde una niebla provoca visiones violentas.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/11.jpg"
+  },
+  {
+    "id": "pelicula_12",
+    "titulo": "La Última Nota",
+    "anio": 2019,
+    "duracionMin": 112,
+    "generos": ["Drama", "Musical"],
+    "plataformas": ["HBO Max"],
+    "mood": "🧠 Pensar",
+    "sinopsis": "Una compositora en crisis creativa regresa a su pueblo natal para encontrar inspiración.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/12.jpg"
+  },
+  {
+    "id": "pelicula_13",
+    "titulo": "Equipo Improbable",
+    "anio": 2023,
+    "duracionMin": 101,
+    "generos": ["Acción", "Comedia"],
+    "plataformas": ["Prime Video"],
+    "mood": "😂 Risa",
+    "sinopsis": "Un detective serio se ve obligado a trabajar con un influencer para resolver un caso viral.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/13.jpg"
+  },
+  {
+    "id": "pelicula_14",
+    "titulo": "Café en Paris",
+    "anio": 2016,
+    "duracionMin": 94,
+    "generos": ["Romance"],
+    "plataformas": ["Netflix"],
+    "mood": "😴 Relax",
+    "sinopsis": "Una barista y un escritor se encuentran cada mañana en la misma cafetería parisina.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/14.jpg"
+  },
+  {
+    "id": "pelicula_15",
+    "titulo": "Hipótesis Mortal",
+    "anio": 2022,
+    "duracionMin": 128,
+    "generos": ["Suspenso", "Acción"],
+    "plataformas": ["Disney+", "Prime Video"],
+    "mood": "🧠 Pensar",
+    "sinopsis": "Un profesor de matemáticas se involucra en una conspiración cuando sus teorías predicen un crimen.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/15.jpg"
+  },
+  {
+    "id": "pelicula_16",
+    "titulo": "Camino de Tierra",
+    "anio": 2018,
+    "duracionMin": 89,
+    "generos": ["Drama", "Aventura"],
+    "plataformas": ["Apple TV+"],
+    "mood": "😴 Relax",
+    "sinopsis": "Un padre y su hija cruzan el desierto para asistir a un concurso de fotografía.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/16.jpg"
+  },
+  {
+    "id": "pelicula_17",
+    "titulo": "Risa en el Espacio",
+    "anio": 2024,
+    "duracionMin": 88,
+    "generos": ["Comedia", "Sci-Fi"],
+    "plataformas": ["Netflix", "HBO Max"],
+    "mood": "😂 Risa",
+    "sinopsis": "Una tripulación improvisada se queda varada en órbita y debe cooperar para volver a casa.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/17.jpg"
+  },
+  {
+    "id": "pelicula_18",
+    "titulo": "Noche de Lobos",
+    "anio": 2021,
+    "duracionMin": 104,
+    "generos": ["Terror", "Aventura"],
+    "plataformas": ["Prime Video"],
+    "mood": "😱 Susto",
+    "sinopsis": "Exploradores quedan atrapados en una isla donde leyendas de hombres lobo cobran vida.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/18.jpg"
+  },
+  {
+    "id": "pelicula_19",
+    "titulo": "Código de Barrio",
+    "anio": 2017,
+    "duracionMin": 97,
+    "generos": ["Acción"],
+    "plataformas": ["HBO Max", "Disney+"],
+    "mood": "😂 Risa",
+    "sinopsis": "Un mensajero en bicicleta se convierte en héroe accidental tras frustrar un robo.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/19.jpg"
+  },
+  {
+    "id": "pelicula_20",
+    "titulo": "Mapa del Alma",
+    "anio": 2023,
+    "duracionMin": 115,
+    "generos": ["Drama", "Romance"],
+    "plataformas": ["Apple TV+"],
+    "mood": "🧠 Pensar",
+    "sinopsis": "Una cartógrafa y un músico viajan por el mundo buscando melodías perdidas y mapas olvidados.",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/20.jpg"
+  }
+]
