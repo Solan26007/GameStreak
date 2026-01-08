@@ -103,15 +103,20 @@ public class MotorRecomendaciones {
             if (sinopsis.contains(criterioLower)) {
                 return true;
             }
-            if (criterioLower.contains("violencia") || criterioLower.contains("gore")) {
-                if (pelicula.getGeneros() != null && (pelicula.getGeneros().contains("Acción") || pelicula.getGeneros().contains("Terror"))) {
+            if (criterioLower.contains("micro")) {
+                if (sinopsis.contains("microtransaccion")) {
                     return true;
                 }
             }
-            if (criterioLower.contains("lentas") && pelicula.getDuracionMin() > 130) {
+            if (criterioLower.contains("grindeo") || criterioLower.contains("grind")) {
+                if (sinopsis.contains("grindeo") || sinopsis.contains("farmeo")) {
+                    return true;
+                }
+            }
+            if (criterioLower.contains("largos") && pelicula.getDuracionMin() > 180) {
                 return true;
             }
-            if (criterioLower.contains("tristes") && sinopsis.contains("triste")) {
+            if (criterioLower.contains("dificultad") && (sinopsis.contains("difícil") || sinopsis.contains("desafiante"))) {
                 return true;
             }
         }

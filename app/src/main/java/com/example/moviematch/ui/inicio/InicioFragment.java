@@ -44,7 +44,7 @@ public class InicioFragment extends Fragment {
         String compania = obtenerTextoChip(chipGroupCompany);
 
         if (mood == null || mood.isEmpty()) {
-            Toast.makeText(requireContext(), "Selecciona un mood para recomendar", Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), "Selecciona un mood de juego para recomendar", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -57,13 +57,13 @@ public class InicioFragment extends Fragment {
             return null;
         }
         if (id == R.id.chipTime30) {
-            return 45;
+            return 30;
         } else if (id == R.id.chipTime60) {
-            return 70;
+            return 60;
         } else if (id == R.id.chipTime90) {
-            return 100;
+            return 120;
         } else if (id == R.id.chipTime120) {
-            return 140;
+            return 240;
         }
         return null;
     }
