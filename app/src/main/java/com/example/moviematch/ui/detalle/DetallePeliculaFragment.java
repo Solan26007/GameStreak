@@ -13,6 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.model.GlideUrl;
+import com.bumptech.glide.load.model.LazyHeaders;
 import com.example.moviematch.R;
 import com.example.moviematch.datos.db.RepositorioDescartadasSQLite;
 import com.example.moviematch.datos.db.RepositorioWatchlistSQLite;
@@ -88,8 +90,9 @@ public class DetallePeliculaFragment extends Fragment {
         }
 
         Glide.with(this)
-                .load(pelicula.getPosterUrl())
+                .load(buildGlideUrl(pelicula.getPosterUrl()))
                 .placeholder(R.mipmap.ic_launcher)
+                .error(R.mipmap.ic_launcher)
                 .into(imgPoster);
 
         btnWatchlist.setOnClickListener(v -> guardarEnWatchlist());
@@ -125,6 +128,15 @@ public class DetallePeliculaFragment extends Fragment {
                 });
             }
         });
+    }
+
+    private GlideUrl buildGlideUrl(String url) {
+        if (url == null || url.trim().isEmpty()) {
+            return null;
+        }
+        return new GlideUrl(url, new LazyHeaders.Builder()
+                .addHeader("User-Agent", "Mozilla/5.0")
+                .build());
     }
 
     @Override

@@ -11,6 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.model.GlideUrl;
+import com.bumptech.glide.load.model.LazyHeaders;
 import com.example.moviematch.R;
 import com.example.moviematch.datos.modelo.Pelicula;
 
@@ -105,7 +107,7 @@ public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.Pelicu
             txtPlataformas.setText(String.format(Locale.getDefault(), "Disponible en: %s", plataformasTexto));
 
             Glide.with(context)
-                    .load(pelicula.getPosterUrl())
+                    .load(buildGlideUrl(pelicula.getPosterUrl()))
                     .placeholder(R.mipmap.ic_launcher)
                     .error(R.mipmap.ic_launcher)
                     .into(imgPoster);
@@ -115,6 +117,15 @@ public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.Pelicu
                 listener.onPeliculaLongClick(pelicula);
                 return true;
             });
+        }
+
+        private GlideUrl buildGlideUrl(String url) {
+            if (url == null || url.trim().isEmpty()) {
+                return null;
+            }
+            return new GlideUrl(url, new LazyHeaders.Builder()
+                    .addHeader("User-Agent", "Mozilla/5.0")
+                    .build());
         }
     }
 }

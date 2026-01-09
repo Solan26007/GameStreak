@@ -77,15 +77,20 @@
     <string name="top_genres_count">Top 5</string>
 
     <string name="console_comparison_title">Comparación de consolas</string>
-    <string name="console_comparison_subtitle">Precio, potencia, exclusivos y servicios en una vista rápida.</string>
-    <string name="console_ps5_title">PlayStation 5</string>
-    <string name="console_ps5_details">Precio: 499 USD aprox.\nPotencia: GPU 10.3 TFLOPS, SSD 825 GB\nExclusivos: Spider-Man 2, God of War Ragnarök, Final Fantasy XVI\nServicios: PlayStation Plus (Extra/Deluxe)</string>
-    <string name="console_xbox_title">Xbox Series X</string>
-    <string name="console_xbox_details">Precio: 499 USD aprox.\nPotencia: GPU 12 TFLOPS, SSD 1 TB\nExclusivos: Halo, Forza, Starfield\nServicios: Game Pass (Ultimate)</string>
-    <string name="console_switch_title">Nintendo Switch OLED</string>
-    <string name="console_switch_details">Precio: 349 USD aprox.\nPotencia: portátil híbrida, 64 GB\nExclusivos: Zelda, Mario, Animal Crossing\nServicios: Nintendo Switch Online</string>
-    <string name="console_pc_title">PC Gamer</string>
-    <string name="console_pc_details">Precio: variable\nPotencia: escalable por componentes\nExclusivos: catálogo completo de mods y ajustes\nServicios: Steam, Epic, Game Pass PC</string>
+    <string name="console_comparison_subtitle">Selecciona dos consolas y revisa diferencias clave.</string>
+    <string name="console_selection_title">Elige las consolas a comparar</string>
+    <string name="console_selection_hint">Primero selecciona dos consolas. Luego verás en qué aspectos destaca cada una.</string>
+    <string name="console_one_label">Primera consola</string>
+    <string name="console_two_label">Segunda consola</string>
+    <string name="console_select_prompt">Selecciona una consola</string>
+    <string name="console_comparison_result_title">Resultado de la comparación</string>
+    <string name="console_comparison_result_subtitle">Diferencias de precio, potencia, exclusivos y servicios.</string>
+    <string name="console_comparison_same_warning">Selecciona dos consolas diferentes para ver las diferencias.</string>
+    <string name="console_comparison_price_placeholder">Precio: selecciona dos consolas para comparar.</string>
+    <string name="console_comparison_power_placeholder">Potencia: selecciona dos consolas para comparar.</string>
+    <string name="console_comparison_exclusives_placeholder">Exclusivos: selecciona dos consolas para comparar.</string>
+    <string name="console_comparison_services_placeholder">Servicios: selecciona dos consolas para comparar.</string>
+    <string name="console_comparison_strengths_placeholder">Fortalezas: selecciona dos consolas.</string>
 
     <string-array name="game_genres">
         <item>@string/genre_action</item>

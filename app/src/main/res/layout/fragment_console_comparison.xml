@@ -32,6 +32,7 @@
             android:layout_marginBottom="20dp" />
 
         <LinearLayout
+            android:id="@+id/cardConsoleSelection"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_section_card"
@@ -42,7 +43,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/console_ps5_title"
+                android:text="@string/console_selection_title"
                 android:textColor="@color/text_primary"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -51,83 +52,126 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/console_ps5_details"
+                android:text="@string/console_selection_hint"
                 android:textColor="@color/text_secondary"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtConsoleOneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/console_one_label"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:layout_marginBottom="6dp" />
+
+            <Spinner
+                android:id="@+id/spinnerConsoleOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtConsoleTwoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/console_two_label"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:layout_marginBottom="6dp" />
+
+            <Spinner
+                android:id="@+id/spinnerConsoleTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown" />
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/cardComparisonResults"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_section_card"
             android:orientation="vertical"
             android:padding="16dp"
-            android:layout_marginBottom="12dp">
+            android:layout_marginBottom="12dp"
+            android:visibility="gone">
 
             <TextView
+                android:id="@+id/txtComparisonTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/console_xbox_title"
+                android:text="@string/console_comparison_result_title"
                 android:textColor="@color/text_primary"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
 
             <TextView
+                android:id="@+id/txtComparisonSubtitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/console_xbox_details"
+                android:text="@string/console_comparison_result_subtitle"
                 android:textColor="@color/text_secondary"
-                android:textSize="14sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_section_card"
-            android:orientation="vertical"
-            android:padding="16dp"
-            android:layout_marginBottom="12dp">
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
 
             <TextView
+                android:id="@+id/txtPriceComparison"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/console_switch_title"
-                android:textColor="@color/text_primary"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                android:text="@string/console_comparison_price_placeholder"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
                 android:layout_marginBottom="8dp" />
 
             <TextView
+                android:id="@+id/txtPowerComparison"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/console_switch_details"
+                android:text="@string/console_comparison_power_placeholder"
                 android:textColor="@color/text_secondary"
-                android:textSize="14sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_section_card"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/console_pc_title"
-                android:textColor="@color/text_primary"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                android:textSize="14sp"
                 android:layout_marginBottom="8dp" />
 
             <TextView
+                android:id="@+id/txtExclusiveComparison"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/console_pc_details"
+                android:text="@string/console_comparison_exclusives_placeholder"
                 android:textColor="@color/text_secondary"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/txtServiceComparison"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/console_comparison_services_placeholder"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtConsoleOneStrengths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/console_comparison_strengths_placeholder"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/txtConsoleTwoStrengths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/console_comparison_strengths_placeholder"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
