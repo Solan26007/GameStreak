@@ -32,7 +32,7 @@ public class MotorRecomendaciones {
         this.repositorioDescartadasSQLite = new RepositorioDescartadasSQLite(context);
     }
 
-    public List<Pelicula> obtenerRecomendaciones(PreferenciasUsuario preferenciasUsuario, String mood, Integer duracionMaxima, String compania) {
+    public List<Pelicula> obtenerRecomendaciones(PreferenciasUsuario preferenciasUsuario, String mood, Integer espacioDisponibleGb, String compania) {
         List<Pelicula> peliculas = cargarPeliculasDesdeAssets();
         Set<String> idsDescartadas = repositorioDescartadasSQLite.obtenerIdsDescartadas();
         List<Pelicula> filtradas = new ArrayList<>();
@@ -48,14 +48,14 @@ public class MotorRecomendaciones {
             filtradas.add(pelicula);
         }
 
-        filtradas.sort(Comparator.comparingInt(p -> -calcularPuntaje(p, preferenciasUsuario, mood, duracionMaxima, compania)));
+        filtradas.sort(Comparator.comparingInt(p -> -calcularPuntaje(p, preferenciasUsuario, mood, espacioDisponibleGb, compania)));
         if (filtradas.size() > 10) {
             return new ArrayList<>(filtradas.subList(0, 10));
         }
         return filtradas;
     }
 
-    private int calcularPuntaje(Pelicula pelicula, PreferenciasUsuario preferenciasUsuario, String mood, Integer duracionMaxima, String compania) {
+    private int calcularPuntaje(Pelicula pelicula, PreferenciasUsuario preferenciasUsuario, String mood, Integer espacioDisponibleGb, String compania) {
         int puntaje = 0;
 
         if (mood != null && !mood.isEmpty() && pelicula.getMood() != null && mood.equalsIgnoreCase(pelicula.getMood())) {
@@ -78,8 +78,8 @@ public class MotorRecomendaciones {
             }
         }
 
-        if (duracionMaxima != null) {
-            if (pelicula.getDuracionMin() <= duracionMaxima) {
+        if (espacioDisponibleGb != null) {
+            if (pelicula.getDuracionMin() <= espacioDisponibleGb) {
                 puntaje += 2;
             } else {
                 puntaje -= 1;
@@ -113,7 +113,7 @@ public class MotorRecomendaciones {
                     return true;
                 }
             }
-            if (criterioLower.contains("largos") && pelicula.getDuracionMin() > 180) {
+            if (criterioLower.contains("pesado") && pelicula.getDuracionMin() > 90) {
                 return true;
             }
             if (criterioLower.contains("dificultad") && (sinopsis.contains("difícil") || sinopsis.contains("desafiante"))) {
