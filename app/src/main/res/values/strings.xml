@@ -15,7 +15,7 @@
 
     <string name="home_title">¿Qué jugamos hoy?</string>
     <string name="home_subtitle">Elige tu tiempo, mood y compañía y yo hago la magia gamer.</string>
-    <string name="home_time_label">• Tiempo de juego</string>
+    <string name="home_time_label">• Tipo de juego</string>
     <string name="home_time_30">Partidas casuales</string>
     <string name="home_time_60">Modo historia corto</string>
     <string name="home_time_90">Modo historia largo</string>
