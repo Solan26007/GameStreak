@@ -107,6 +107,7 @@ public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.Pelicu
             Glide.with(context)
                     .load(pelicula.getPosterUrl())
                     .placeholder(R.mipmap.ic_launcher)
+                    .error(R.mipmap.ic_launcher)
                     .into(imgPoster);
 
             itemView.setOnClickListener(v -> listener.onPeliculaClick(pelicula));
