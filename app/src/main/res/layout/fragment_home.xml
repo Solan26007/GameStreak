@@ -74,24 +74,28 @@
                     android:id="@+id/radioMoodRelax"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_mood_relax" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioMoodRisa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_mood_laugh" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioMoodPensar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_mood_think" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioMoodSusto"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_mood_scare" />
 
             </RadioGroup>
@@ -126,24 +130,28 @@
                     android:id="@+id/radioTime30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_time_30" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioTime60"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_time_60" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioTime90"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_time_90" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioTime120"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_time_120" />
 
             </RadioGroup>
@@ -178,24 +186,28 @@
                     android:id="@+id/radioSolo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_company_solo" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioPareja"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_company_couple" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioAmigos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_company_friends" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/radioFamilia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
                     android:text="@string/home_company_family" />
 
             </RadioGroup>
