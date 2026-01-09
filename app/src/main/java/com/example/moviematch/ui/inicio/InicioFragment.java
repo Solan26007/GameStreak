@@ -32,10 +32,8 @@ public class InicioFragment extends Fragment {
         RadioGroup radioGroupMood = view.findViewById(R.id.radioGroupMood);
         RadioGroup radioGroupCompany = view.findViewById(R.id.radioGroupCompany);
         MaterialButton btnBuscar = view.findViewById(R.id.btnBuscarPelicula);
-        MaterialButton btnModoGrupo = view.findViewById(R.id.btnModoGrupo);
 
         btnBuscar.setOnClickListener(v -> navegarARecomendaciones(radioGroupTime, radioGroupMood, radioGroupCompany));
-        btnModoGrupo.setOnClickListener(v -> ((ActividadPrincipal) requireActivity()).irAModoGrupo());
     }
 
     private void navegarARecomendaciones(RadioGroup radioGroupTime, RadioGroup radioGroupMood, RadioGroup radioGroupCompany) {
@@ -57,13 +55,13 @@ public class InicioFragment extends Fragment {
             return null;
         }
         if (id == R.id.radioTime30) {
-            return 30;
-        } else if (id == R.id.radioTime60) {
             return 60;
-        } else if (id == R.id.radioTime90) {
+        } else if (id == R.id.radioTime60) {
             return 120;
+        } else if (id == R.id.radioTime90) {
+            return 180;
         } else if (id == R.id.radioTime120) {
-            return 240;
+            return 300;
         }
         return null;
     }

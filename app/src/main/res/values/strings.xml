@@ -16,10 +16,10 @@
     <string name="home_title">¿Qué jugamos hoy?</string>
     <string name="home_subtitle">Elige tu tiempo, mood y compañía y yo hago la magia gamer.</string>
     <string name="home_time_label">• Tiempo de juego</string>
-    <string name="home_time_30">30 min</string>
-    <string name="home_time_60">1 h</string>
-    <string name="home_time_90">2 h</string>
-    <string name="home_time_120">4 h+</string>
+    <string name="home_time_30">Partidas casuales</string>
+    <string name="home_time_60">Modo historia corto</string>
+    <string name="home_time_90">Modo historia largo</string>
+    <string name="home_time_120">Mundo abierto</string>
     <string name="home_mood_label">• Estado de ánimo</string>
     <string name="home_mood_relax">😴 Chill</string>
     <string name="home_mood_laugh">😂 Party</string>
@@ -31,7 +31,6 @@
     <string name="home_company_friends">Amigos</string>
     <string name="home_company_family">Familia</string>
     <string name="home_search_button">Buscar juego</string>
-    <string name="home_group_mode_button">Modo grupo</string>
 
     <string name="results_title">Recomendaciones gamer</string>
     <string name="watchlist_title">Pendientes para jugar</string>
@@ -63,14 +62,13 @@
     <string name="nav_home">Recomendador</string>
     <string name="nav_onboarding">Mis preferencias</string>
     <string name="nav_watchlist">Mis pendientes</string>
-    <string name="nav_group">Modo grupo</string>
     <string name="nav_top_genres">Top 5 por género</string>
     <string name="nav_subtitle">Encuentra el juego perfecto</string>
     <string name="navigation_drawer_open">Abrir menú de navegación</string>
     <string name="navigation_drawer_close">Cerrar menú de navegación</string>
 
     <string name="welcome_title">Tu guía para elegir juego</string>
-    <string name="welcome_subtitle">Bienvenido/a a GameStreak. Descubre recomendaciones personalizadas, guarda tus favoritos y explora en modo grupo sin salir de aquí.</string>
+    <string name="welcome_subtitle">Bienvenido/a a GameStreak. Descubre recomendaciones personalizadas, guarda tus favoritos y explora sin salir de aquí.</string>
     <string name="welcome_start_button">Empezar</string>
     <string name="welcome_onboarding_hint">Ajustaremos tus preferencias si aún no las has configurado.</string>
 

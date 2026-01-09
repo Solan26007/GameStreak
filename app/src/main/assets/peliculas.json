@@ -3,9 +3,15 @@
     "id": "juego_1",
     "titulo": "Neon Drift",
     "anio": 2024,
-    "duracionMin": 35,
-    "generos": ["Acción", "Deportes"],
-    "plataformas": ["PC", "PlayStation 5"],
+    "duracionMin": 45,
+    "generos": [
+      "Acción",
+      "Deportes"
+    ],
+    "plataformas": [
+      "PC",
+      "PlayStation 5"
+    ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Carreras urbanas con curvas cerradas y boosts para dominar la noche cyber.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/1.jpg"
@@ -14,9 +20,15 @@
     "id": "juego_2",
     "titulo": "Pixel Quest",
     "anio": 2021,
-    "duracionMin": 90,
-    "generos": ["Aventura", "RPG"],
-    "plataformas": ["Nintendo Switch", "PC"],
+    "duracionMin": 120,
+    "generos": [
+      "Aventura",
+      "RPG"
+    ],
+    "plataformas": [
+      "Nintendo Switch",
+      "PC"
+    ],
     "mood": "😴 Chill",
     "sinopsis": "Explora islas flotantes, resuelve puzles y recluta aliados con habilidades únicas.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/2.jpg"
@@ -25,9 +37,15 @@
     "id": "juego_3",
     "titulo": "Shadow Protocol",
     "anio": 2023,
-    "duracionMin": 140,
-    "generos": ["Acción", "Estrategia"],
-    "plataformas": ["Xbox Series", "PC"],
+    "duracionMin": 180,
+    "generos": [
+      "Acción",
+      "Estrategia"
+    ],
+    "plataformas": [
+      "Xbox Series",
+      "PC"
+    ],
     "mood": "🧠 Estrategia",
     "sinopsis": "Infiltración táctica con gadgets, rutas alternativas y decisiones en tiempo real.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/3.jpg"
@@ -37,8 +55,13 @@
     "titulo": "Campus Party",
     "anio": 2020,
     "duracionMin": 45,
-    "generos": ["Aventura", "Deportes"],
-    "plataformas": ["Mobile"],
+    "generos": [
+      "Aventura",
+      "Deportes"
+    ],
+    "plataformas": [
+      "Mobile"
+    ],
     "mood": "😂 Party",
     "sinopsis": "Minijuegos rápidos para jugar en grupo con retos locos y risas aseguradas.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/4.jpg"
@@ -47,9 +70,14 @@
     "id": "juego_5",
     "titulo": "Luz Abisal",
     "anio": 2019,
-    "duracionMin": 110,
-    "generos": ["Terror", "Aventura"],
-    "plataformas": ["PlayStation 5"],
+    "duracionMin": 120,
+    "generos": [
+      "Terror",
+      "Aventura"
+    ],
+    "plataformas": [
+      "PlayStation 5"
+    ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Explora un laboratorio submarino donde cada pasillo esconde un susto distinto.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/5.jpg"
@@ -58,9 +86,15 @@
     "id": "juego_6",
     "titulo": "Frontera RPG",
     "anio": 2022,
-    "duracionMin": 200,
-    "generos": ["RPG", "Acción"],
-    "plataformas": ["PC", "Xbox Series"],
+    "duracionMin": 300,
+    "generos": [
+      "RPG",
+      "Acción"
+    ],
+    "plataformas": [
+      "PC",
+      "Xbox Series"
+    ],
     "mood": "🧠 Estrategia",
     "sinopsis": "Mundos abiertos, reputaciones y combates desafiantes con jefes difíciles.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/6.jpg"
@@ -69,9 +103,14 @@
     "id": "juego_7",
     "titulo": "Sky Builders",
     "anio": 2021,
-    "duracionMin": 75,
-    "generos": ["Estrategia", "Aventura"],
-    "plataformas": ["PC"],
+    "duracionMin": 120,
+    "generos": [
+      "Estrategia",
+      "Aventura"
+    ],
+    "plataformas": [
+      "PC"
+    ],
     "mood": "😴 Chill",
     "sinopsis": "Construye ciudades en las nubes y gestiona recursos con calma y creatividad.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/7.jpg"
@@ -80,9 +119,15 @@
     "id": "juego_8",
     "titulo": "Sprint Galaxy",
     "anio": 2018,
-    "duracionMin": 50,
-    "generos": ["Deportes", "Acción"],
-    "plataformas": ["Nintendo Switch", "Mobile"],
+    "duracionMin": 45,
+    "generos": [
+      "Deportes",
+      "Acción"
+    ],
+    "plataformas": [
+      "Nintendo Switch",
+      "Mobile"
+    ],
     "mood": "😂 Party",
     "sinopsis": "Carreras arcade con ítems locos y pistas galácticas para partidas cortas.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/8.jpg"
@@ -91,9 +136,14 @@
     "id": "juego_9",
     "titulo": "Hexa Tactics",
     "anio": 2024,
-    "duracionMin": 160,
-    "generos": ["Estrategia"],
-    "plataformas": ["PC", "PlayStation 5"],
+    "duracionMin": 180,
+    "generos": [
+      "Estrategia"
+    ],
+    "plataformas": [
+      "PC",
+      "PlayStation 5"
+    ],
     "mood": "🧠 Estrategia",
     "sinopsis": "Batallas por turnos con combos tácticos y mapas modulares.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/9.jpg"
@@ -102,9 +152,13 @@
     "id": "juego_10",
     "titulo": "Bosque Arcade",
     "anio": 2017,
-    "duracionMin": 30,
-    "generos": ["Aventura"],
-    "plataformas": ["Mobile"],
+    "duracionMin": 45,
+    "generos": [
+      "Aventura"
+    ],
+    "plataformas": [
+      "Mobile"
+    ],
     "mood": "😴 Chill",
     "sinopsis": "Explora un bosque encantado en partidas cortas con coleccionables secretos.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/10.jpg"
@@ -113,9 +167,14 @@
     "id": "juego_11",
     "titulo": "Arena Pulse",
     "anio": 2022,
-    "duracionMin": 60,
-    "generos": ["Acción"],
-    "plataformas": ["PC", "PlayStation 5"],
+    "duracionMin": 45,
+    "generos": [
+      "Acción"
+    ],
+    "plataformas": [
+      "PC",
+      "PlayStation 5"
+    ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Combate rápido en arenas neon con habilidades especiales y ritmo intenso.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/11.jpg"
@@ -124,9 +183,13 @@
     "id": "juego_12",
     "titulo": "Ritmo Switch",
     "anio": 2019,
-    "duracionMin": 40,
-    "generos": ["Deportes"],
-    "plataformas": ["Nintendo Switch"],
+    "duracionMin": 45,
+    "generos": [
+      "Deportes"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
     "mood": "😂 Party",
     "sinopsis": "Baila y marca combos con controles de movimiento para competir con amigos.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/12.jpg"
@@ -135,9 +198,14 @@
     "id": "juego_13",
     "titulo": "Cripta 9",
     "anio": 2020,
-    "duracionMin": 95,
-    "generos": ["Terror"],
-    "plataformas": ["PC", "Xbox Series"],
+    "duracionMin": 120,
+    "generos": [
+      "Terror"
+    ],
+    "plataformas": [
+      "PC",
+      "Xbox Series"
+    ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Sobrevive en una cripta con puzzles y una presencia que no te deja respirar.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/13.jpg"
@@ -147,8 +215,13 @@
     "titulo": "Torre Zenith",
     "anio": 2023,
     "duracionMin": 180,
-    "generos": ["RPG", "Estrategia"],
-    "plataformas": ["PlayStation 5"],
+    "generos": [
+      "RPG",
+      "Estrategia"
+    ],
+    "plataformas": [
+      "PlayStation 5"
+    ],
     "mood": "🧠 Estrategia",
     "sinopsis": "Construye tu equipo piso a piso con habilidades combinables y decisiones clave.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/14.jpg"
@@ -157,9 +230,15 @@
     "id": "juego_15",
     "titulo": "Volt Riders",
     "anio": 2021,
-    "duracionMin": 70,
-    "generos": ["Acción", "Deportes"],
-    "plataformas": ["Xbox Series", "PC"],
+    "duracionMin": 120,
+    "generos": [
+      "Acción",
+      "Deportes"
+    ],
+    "plataformas": [
+      "Xbox Series",
+      "PC"
+    ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Carreras con motos eléctricas y torneos rápidos en escenarios futuristas.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/15.jpg"
@@ -169,8 +248,13 @@
     "titulo": "Finca Cozy",
     "anio": 2022,
     "duracionMin": 120,
-    "generos": ["Aventura"],
-    "plataformas": ["Nintendo Switch", "Mobile"],
+    "generos": [
+      "Aventura"
+    ],
+    "plataformas": [
+      "Nintendo Switch",
+      "Mobile"
+    ],
     "mood": "😴 Chill",
     "sinopsis": "Cultiva, decora y conoce personajes entrañables en un pueblo relajante.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/16.jpg"
@@ -179,9 +263,13 @@
     "id": "juego_17",
     "titulo": "Metro Clash",
     "anio": 2019,
-    "duracionMin": 55,
-    "generos": ["Acción"],
-    "plataformas": ["PC"],
+    "duracionMin": 45,
+    "generos": [
+      "Acción"
+    ],
+    "plataformas": [
+      "PC"
+    ],
     "mood": "😂 Party",
     "sinopsis": "Shooter rápido con partidas cortas y mapas compactos para jugar con amigos.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/17.jpg"
@@ -190,9 +278,15 @@
     "id": "juego_18",
     "titulo": "Reino Cristal",
     "anio": 2018,
-    "duracionMin": 150,
-    "generos": ["RPG", "Aventura"],
-    "plataformas": ["PlayStation 5", "PC"],
+    "duracionMin": 180,
+    "generos": [
+      "RPG",
+      "Aventura"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "PC"
+    ],
     "mood": "🧠 Estrategia",
     "sinopsis": "Viaja por reinos en guerra con una narrativa épica y farmeo opcional.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/18.jpg"
@@ -201,9 +295,14 @@
     "id": "juego_19",
     "titulo": "Circuito F2P",
     "anio": 2024,
-    "duracionMin": 80,
-    "generos": ["Deportes", "Acción"],
-    "plataformas": ["Mobile"],
+    "duracionMin": 120,
+    "generos": [
+      "Deportes",
+      "Acción"
+    ],
+    "plataformas": [
+      "Mobile"
+    ],
     "mood": "😂 Party",
     "sinopsis": "Compite en ligas rápidas con eventos diarios y microtransacciones opcionales.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/19.jpg"
@@ -212,9 +311,15 @@
     "id": "juego_20",
     "titulo": "Eclipse Dungeon",
     "anio": 2023,
-    "duracionMin": 210,
-    "generos": ["RPG", "Terror"],
-    "plataformas": ["PC", "Xbox Series"],
+    "duracionMin": 300,
+    "generos": [
+      "RPG",
+      "Terror"
+    ],
+    "plataformas": [
+      "PC",
+      "Xbox Series"
+    ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Un roguelike desafiante con jefes difíciles y caminos oscuros por descubrir.",
     "posterUrl": "https://image.tmdb.org/t/p/w500/20.jpg"

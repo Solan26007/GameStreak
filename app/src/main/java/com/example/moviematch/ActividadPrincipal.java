@@ -21,7 +21,6 @@ import com.example.moviematch.datos.preferencias.GestorPreferenciasUsuario;
 import com.example.moviematch.ui.bienvenida.BienvenidaFragment;
 import com.example.moviematch.ui.detalle.DetallePeliculaFragment;
 import com.example.moviematch.ui.inicio.InicioFragment;
-import com.example.moviematch.ui.modogrupo.ModoGrupoFragment;
 import com.example.moviematch.ui.onboarding.OnboardingFragment;
 import com.example.moviematch.ui.recomendaciones.RecomendacionesFragment;
 import com.example.moviematch.ui.topgeneros.TopGenerosFragment;
@@ -108,8 +107,6 @@ public class ActividadPrincipal extends AppCompatActivity {
             irAVerDespues();
         } else if (itemId == R.id.nav_top_genres) {
             irATopGeneros();
-        } else if (itemId == R.id.nav_group) {
-            irAModoGrupo();
         }
     }
 
@@ -160,11 +157,6 @@ public class ActividadPrincipal extends AppCompatActivity {
     public void irAVerDespues() {
         resaltarMenu(R.id.nav_watchlist);
         mostrarFragmento(new VerDespuesFragment(), true);
-    }
-
-    public void irAModoGrupo() {
-        resaltarMenu(R.id.nav_group);
-        mostrarFragmento(new ModoGrupoFragment(), true);
     }
 
     public void irATopGeneros() {

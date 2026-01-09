@@ -16,15 +16,6 @@
         android:orientation="vertical"
         android:paddingBottom="32dp">
 
-        <ImageView
-            android:id="@+id/imgHomeLogo"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_gravity="end"
-            android:layout_marginBottom="8dp"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/loguito" />
-
         <com.example.moviematch.ui.common.GradientTextView
             android:id="@+id/txtHomeTitle"
             android:layout_width="wrap_content"
@@ -218,27 +209,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="2"
             android:layout_marginTop="8dp">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnBuscarPelicula"
                 style="@style/AppButton.Primary"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="@string/home_search_button"
-                android:textAllCaps="false"
-                android:textStyle="bold" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnModoGrupo"
-                style="@style/AppButton.Outline"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="12dp"
-                android:text="@string/home_group_mode_button"
                 android:textAllCaps="false"
                 android:textStyle="bold" />
 
