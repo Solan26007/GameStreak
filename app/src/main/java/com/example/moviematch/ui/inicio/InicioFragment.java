@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -13,8 +15,6 @@ import androidx.fragment.app.Fragment;
 import com.example.moviematch.ActividadPrincipal;
 import com.example.moviematch.R;
 import com.google.android.material.button.MaterialButton;
-import com.google.android.material.chip.Chip;
-import com.google.android.material.chip.ChipGroup;
 
 public class InicioFragment extends Fragment {
 
@@ -28,20 +28,20 @@ public class InicioFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        ChipGroup chipGroupTime = view.findViewById(R.id.chipGroupTime);
-        ChipGroup chipGroupMood = view.findViewById(R.id.chipGroupMood);
-        ChipGroup chipGroupCompany = view.findViewById(R.id.chipGroupCompany);
+        RadioGroup radioGroupTime = view.findViewById(R.id.radioGroupTime);
+        RadioGroup radioGroupMood = view.findViewById(R.id.radioGroupMood);
+        RadioGroup radioGroupCompany = view.findViewById(R.id.radioGroupCompany);
         MaterialButton btnBuscar = view.findViewById(R.id.btnBuscarPelicula);
         MaterialButton btnModoGrupo = view.findViewById(R.id.btnModoGrupo);
 
-        btnBuscar.setOnClickListener(v -> navegarARecomendaciones(chipGroupTime, chipGroupMood, chipGroupCompany));
+        btnBuscar.setOnClickListener(v -> navegarARecomendaciones(radioGroupTime, radioGroupMood, radioGroupCompany));
         btnModoGrupo.setOnClickListener(v -> ((ActividadPrincipal) requireActivity()).irAModoGrupo());
     }
 
-    private void navegarARecomendaciones(ChipGroup chipGroupTime, ChipGroup chipGroupMood, ChipGroup chipGroupCompany) {
-        Integer duracionMax = obtenerDuracionSeleccionada(chipGroupTime);
-        String mood = obtenerTextoChip(chipGroupMood);
-        String compania = obtenerTextoChip(chipGroupCompany);
+    private void navegarARecomendaciones(RadioGroup radioGroupTime, RadioGroup radioGroupMood, RadioGroup radioGroupCompany) {
+        Integer duracionMax = obtenerDuracionSeleccionada(radioGroupTime);
+        String mood = obtenerTextoSeleccionado(radioGroupMood);
+        String compania = obtenerTextoSeleccionado(radioGroupCompany);
 
         if (mood == null || mood.isEmpty()) {
             Toast.makeText(requireContext(), "Selecciona un mood de juego para recomendar", Toast.LENGTH_SHORT).show();
@@ -51,31 +51,31 @@ public class InicioFragment extends Fragment {
         ((ActividadPrincipal) requireActivity()).irARecomendaciones(mood, duracionMax, compania);
     }
 
-    private Integer obtenerDuracionSeleccionada(ChipGroup chipGroupTime) {
-        int id = chipGroupTime.getCheckedChipId();
+    private Integer obtenerDuracionSeleccionada(RadioGroup radioGroupTime) {
+        int id = radioGroupTime.getCheckedRadioButtonId();
         if (id == View.NO_ID) {
             return null;
         }
-        if (id == R.id.chipTime30) {
+        if (id == R.id.radioTime30) {
             return 30;
-        } else if (id == R.id.chipTime60) {
+        } else if (id == R.id.radioTime60) {
             return 60;
-        } else if (id == R.id.chipTime90) {
+        } else if (id == R.id.radioTime90) {
             return 120;
-        } else if (id == R.id.chipTime120) {
+        } else if (id == R.id.radioTime120) {
             return 240;
         }
         return null;
     }
 
-    private String obtenerTextoChip(ChipGroup chipGroup) {
-        int id = chipGroup.getCheckedChipId();
+    private String obtenerTextoSeleccionado(RadioGroup radioGroup) {
+        int id = radioGroup.getCheckedRadioButtonId();
         if (id == View.NO_ID) {
             return null;
         }
-        Chip chip = chipGroup.findViewById(id);
-        if (chip != null) {
-            return chip.getText().toString();
+        RadioButton radioButton = radioGroup.findViewById(id);
+        if (radioButton != null) {
+            return radioButton.getText().toString();
         }
         return null;
     }

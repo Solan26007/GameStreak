@@ -16,6 +16,15 @@
         android:orientation="vertical"
         android:paddingBottom="32dp">
 
+        <ImageView
+            android:id="@+id/imgHomeLogo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/loguito" />
+
         <com.example.moviematch.ui.common.GradientTextView
             android:id="@+id/txtHomeTitle"
             android:layout_width="wrap_content"
@@ -55,43 +64,37 @@
                 android:textStyle="bold"
                 android:layout_marginBottom="12dp" />
 
-            <com.google.android.material.chip.ChipGroup
-                android:id="@+id/chipGroupMood"
+            <RadioGroup
+                android:id="@+id/radioGroupMood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                app:chipSpacing="8dp"
-                app:singleSelection="true">
+                android:orientation="vertical">
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipMoodRelax"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioMoodRelax"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_mood_relax" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipMoodRisa"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioMoodRisa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_mood_laugh" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipMoodPensar"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioMoodPensar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_mood_think" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipMoodSusto"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioMoodSusto"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_mood_scare" />
 
-            </com.google.android.material.chip.ChipGroup>
+            </RadioGroup>
 
         </LinearLayout>
 
@@ -113,43 +116,37 @@
                 android:textStyle="bold"
                 android:layout_marginBottom="12dp" />
 
-            <com.google.android.material.chip.ChipGroup
-                android:id="@+id/chipGroupTime"
+            <RadioGroup
+                android:id="@+id/radioGroupTime"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                app:chipSpacing="8dp"
-                app:singleSelection="true">
+                android:orientation="vertical">
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipTime30"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioTime30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_time_30" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipTime60"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioTime60"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_time_60" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipTime90"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioTime90"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_time_90" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipTime120"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioTime120"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_time_120" />
 
-            </com.google.android.material.chip.ChipGroup>
+            </RadioGroup>
 
         </LinearLayout>
 
@@ -171,43 +168,37 @@
                 android:textStyle="bold"
                 android:layout_marginBottom="12dp" />
 
-            <com.google.android.material.chip.ChipGroup
-                android:id="@+id/chipGroupCompany"
+            <RadioGroup
+                android:id="@+id/radioGroupCompany"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                app:chipSpacing="8dp"
-                app:singleSelection="true">
+                android:orientation="vertical">
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipSolo"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioSolo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_company_solo" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipPareja"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioPareja"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_company_couple" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipAmigos"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioAmigos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_company_friends" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/chipFamilia"
-                    style="@style/AppChip.Dark"
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radioFamilia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/home_company_family" />
 
-            </com.google.android.material.chip.ChipGroup>
+            </RadioGroup>
 
         </LinearLayout>
 

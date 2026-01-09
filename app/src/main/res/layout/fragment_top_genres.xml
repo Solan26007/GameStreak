@@ -10,6 +10,15 @@
     android:padding="16dp"
     tools:context=".ui.topgeneros.TopGenerosFragment">
 
+    <ImageView
+        android:id="@+id/imgTopGenresLogo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/loguito" />
+
     <TextView
         android:id="@+id/txtTopGenresTitle"
         android:layout_width="wrap_content"
