@@ -3,7 +3,7 @@
 
     <string name="poster_big_desc">Carátula grande del videojuego</string>
     <string name="movie_title_placeholder">Título del videojuego</string>
-    <string name="movie_meta_placeholder">2024 · 90 min · Acción</string>
+    <string name="movie_meta_placeholder">2024 · 120 MB · Acción</string>
     <string name="movie_platforms_placeholder">Disponible en: PC</string>
     <string name="section_synopsis">Sinopsis</string>
     <string name="movie_synopsis_placeholder">Aquí va la descripción del videojuego...</string>
@@ -98,7 +98,7 @@
 
     <string name="game_cover_desc">Carátula del videojuego</string>
     <string name="game_title_placeholder">Título del videojuego</string>
-    <string name="game_info_placeholder">2024 · 90 min · Acción</string>
+    <string name="game_info_placeholder">2024 · 120 MB · Acción</string>
     <string name="game_mood_placeholder">Mood: Chill 😴</string>
     <string name="game_platforms_placeholder">Disponible en: PC</string>
 </resources>
