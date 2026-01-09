@@ -72,7 +72,7 @@ public class DetallePeliculaFragment extends Fragment {
 
         txtTitulo.setText(pelicula.getTitulo());
         String generosTexto = pelicula.getGeneros() != null ? String.join(", ", pelicula.getGeneros()) : "";
-        String meta = String.format(Locale.getDefault(), "%d · %d MB · %s", pelicula.getAnio(), pelicula.getDuracionMin(), generosTexto);
+        String meta = String.format(Locale.getDefault(), "%d · %d GB · %s", pelicula.getAnio(), pelicula.getDuracionMin(), generosTexto);
         txtMeta.setText(meta);
         String plataformasTexto = pelicula.getPlataformas() != null ? String.join(", ", pelicula.getPlataformas()) : "";
         txtPlataformas.setText(String.format(Locale.getDefault(), "Disponible en: %s", plataformasTexto));

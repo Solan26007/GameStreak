@@ -95,7 +95,7 @@ public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.Pelicu
             Context context = itemView.getContext();
             txtTitulo.setText(pelicula.getTitulo());
             String generosTexto = pelicula.getGeneros() != null ? String.join(", ", pelicula.getGeneros()) : "";
-            String info = String.format(Locale.getDefault(), "%d · %d MB · %s", pelicula.getAnio(), pelicula.getDuracionMin(), generosTexto);
+            String info = String.format(Locale.getDefault(), "%d · %d GB · %s", pelicula.getAnio(), pelicula.getDuracionMin(), generosTexto);
             txtInfo.setText(info);
             String mood = pelicula.getMood() != null ? pelicula.getMood() : "";
             txtMood.setText(String.format(Locale.getDefault(), "Mood: %s", mood));

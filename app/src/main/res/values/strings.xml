@@ -3,7 +3,7 @@
 
     <string name="poster_big_desc">Carátula grande del videojuego</string>
     <string name="movie_title_placeholder">Título del videojuego</string>
-    <string name="movie_meta_placeholder">2024 · 120 MB · Acción</string>
+    <string name="movie_meta_placeholder">2024 · 120 GB · Acción</string>
     <string name="movie_platforms_placeholder">Disponible en: PC</string>
     <string name="section_synopsis">Sinopsis</string>
     <string name="movie_synopsis_placeholder">Aquí va la descripción del videojuego...</string>
@@ -14,12 +14,9 @@
     <string name="dislike_button_label">No me interesa</string>
 
     <string name="home_title">¿Qué jugamos hoy?</string>
-    <string name="home_subtitle">Elige tu tiempo, mood y compañía y yo hago la magia gamer.</string>
-    <string name="home_time_label">• Tipo de juego</string>
-    <string name="home_time_30">Partidas casuales</string>
-    <string name="home_time_60">Modo historia corto</string>
-    <string name="home_time_90">Modo historia largo</string>
-    <string name="home_time_120">Mundo abierto</string>
+    <string name="home_subtitle">Cuéntame tu mood, compañía y el espacio libre para recomendarte.</string>
+    <string name="home_storage_label">• GB libres para instalar</string>
+    <string name="home_storage_hint">Ingresa tu espacio disponible en GB</string>
     <string name="home_mood_label">• Estado de ánimo</string>
     <string name="home_mood_relax">😴 Chill</string>
     <string name="home_mood_laugh">😂 Party</string>
@@ -53,7 +50,7 @@
     <string name="onboarding_avoid_label">¿Algo que quieras evitar?</string>
     <string name="avoid_violence">Microtransacciones</string>
     <string name="avoid_gore">Grindeo pesado</string>
-    <string name="avoid_slow_movies">Muy largos</string>
+    <string name="avoid_slow_movies">Muy pesados</string>
     <string name="avoid_sad_endings">Dificultad alta</string>
     <string name="onboarding_skip">Saltar</string>
     <string name="onboarding_continue">Continuar</string>
@@ -63,6 +60,7 @@
     <string name="nav_onboarding">Mis preferencias</string>
     <string name="nav_watchlist">Mis pendientes</string>
     <string name="nav_top_genres">Top 5 por género</string>
+    <string name="nav_console_comparison">Comparación de consolas</string>
     <string name="nav_subtitle">Encuentra el juego perfecto</string>
     <string name="navigation_drawer_open">Abrir menú de navegación</string>
     <string name="navigation_drawer_close">Cerrar menú de navegación</string>
@@ -77,6 +75,17 @@
     <string name="top_genres_label">Género</string>
     <string name="top_genres_empty">No hay resultados para este género.</string>
     <string name="top_genres_count">Top 5</string>
+
+    <string name="console_comparison_title">Comparación de consolas</string>
+    <string name="console_comparison_subtitle">Precio, potencia, exclusivos y servicios en una vista rápida.</string>
+    <string name="console_ps5_title">PlayStation 5</string>
+    <string name="console_ps5_details">Precio: 499 USD aprox.\nPotencia: GPU 10.3 TFLOPS, SSD 825 GB\nExclusivos: Spider-Man 2, God of War Ragnarök, Final Fantasy XVI\nServicios: PlayStation Plus (Extra/Deluxe)</string>
+    <string name="console_xbox_title">Xbox Series X</string>
+    <string name="console_xbox_details">Precio: 499 USD aprox.\nPotencia: GPU 12 TFLOPS, SSD 1 TB\nExclusivos: Halo, Forza, Starfield\nServicios: Game Pass (Ultimate)</string>
+    <string name="console_switch_title">Nintendo Switch OLED</string>
+    <string name="console_switch_details">Precio: 349 USD aprox.\nPotencia: portátil híbrida, 64 GB\nExclusivos: Zelda, Mario, Animal Crossing\nServicios: Nintendo Switch Online</string>
+    <string name="console_pc_title">PC Gamer</string>
+    <string name="console_pc_details">Precio: variable\nPotencia: escalable por componentes\nExclusivos: catálogo completo de mods y ajustes\nServicios: Steam, Epic, Game Pass PC</string>
 
     <string-array name="game_genres">
         <item>@string/genre_action</item>
@@ -98,7 +107,7 @@
 
     <string name="game_cover_desc">Carátula del videojuego</string>
     <string name="game_title_placeholder">Título del videojuego</string>
-    <string name="game_info_placeholder">2024 · 120 MB · Acción</string>
+    <string name="game_info_placeholder">2024 · 120 GB · Acción</string>
     <string name="game_mood_placeholder">Mood: Chill 😴</string>
     <string name="game_platforms_placeholder">Disponible en: PC</string>
 </resources>

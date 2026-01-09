@@ -26,7 +26,7 @@ import java.util.concurrent.Executors;
 public class RecomendacionesFragment extends Fragment {
 
     private static final String ARG_MOOD = "arg_mood";
-    private static final String ARG_DURACION = "arg_duracion";
+    private static final String ARG_ESPACIO = "arg_espacio";
     private static final String ARG_COMPANIA = "arg_compania";
 
     private PeliculaAdapter peliculaAdapter;
@@ -34,12 +34,12 @@ public class RecomendacionesFragment extends Fragment {
     private MotorRecomendaciones motorRecomendaciones;
     private GestorPreferenciasUsuario gestorPreferenciasUsuario;
 
-    public static RecomendacionesFragment nuevaInstancia(String mood, Integer duracion, String compania) {
+    public static RecomendacionesFragment nuevaInstancia(String mood, Integer espacioDisponibleGb, String compania) {
         RecomendacionesFragment fragment = new RecomendacionesFragment();
         Bundle args = new Bundle();
         args.putString(ARG_MOOD, mood);
-        if (duracion != null) {
-            args.putInt(ARG_DURACION, duracion);
+        if (espacioDisponibleGb != null) {
+            args.putInt(ARG_ESPACIO, espacioDisponibleGb);
         }
         args.putString(ARG_COMPANIA, compania);
         fragment.setArguments(args);
@@ -88,11 +88,11 @@ public class RecomendacionesFragment extends Fragment {
         executorService.execute(() -> {
             PreferenciasUsuario preferenciasUsuario = gestorPreferenciasUsuario.obtenerPreferencias();
             String mood = getArguments() != null ? getArguments().getString(ARG_MOOD) : null;
-            Integer duracion = getArguments() != null && getArguments().containsKey(ARG_DURACION)
-                    ? getArguments().getInt(ARG_DURACION) : null;
+            Integer espacioDisponible = getArguments() != null && getArguments().containsKey(ARG_ESPACIO)
+                    ? getArguments().getInt(ARG_ESPACIO) : null;
             String compania = getArguments() != null ? getArguments().getString(ARG_COMPANIA) : null;
 
-            List<Pelicula> peliculas = motorRecomendaciones.obtenerRecomendaciones(preferenciasUsuario, mood, duracion, compania);
+            List<Pelicula> peliculas = motorRecomendaciones.obtenerRecomendaciones(preferenciasUsuario, mood, espacioDisponible, compania);
 
             if (isAdded()) {
                 requireActivity().runOnUiThread(() -> mostrarPeliculas(peliculas));

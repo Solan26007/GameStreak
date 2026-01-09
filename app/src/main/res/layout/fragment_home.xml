@@ -105,47 +105,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="@string/home_time_label"
+                android:text="@string/home_storage_label"
                 android:textColor="@color/text_primary"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="12dp" />
 
-            <RadioGroup
-                android:id="@+id/radioGroupTime"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:hint="@string/home_storage_hint"
+                app:boxBackgroundMode="outline">
 
-                <com.google.android.material.radiobutton.MaterialRadioButton
-                    android:id="@+id/radioTime30"
-                    android:layout_width="wrap_content"
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputStorageGb"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_primary"
-                    android:text="@string/home_time_30" />
+                    android:inputType="number"
+                    android:textColor="@color/text_primary" />
 
-                <com.google.android.material.radiobutton.MaterialRadioButton
-                    android:id="@+id/radioTime60"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/text_primary"
-                    android:text="@string/home_time_60" />
-
-                <com.google.android.material.radiobutton.MaterialRadioButton
-                    android:id="@+id/radioTime90"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/text_primary"
-                    android:text="@string/home_time_90" />
-
-                <com.google.android.material.radiobutton.MaterialRadioButton
-                    android:id="@+id/radioTime120"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/text_primary"
-                    android:text="@string/home_time_120" />
-
-            </RadioGroup>
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 
