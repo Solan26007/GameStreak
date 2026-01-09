@@ -19,9 +19,9 @@ import androidx.fragment.app.Fragment;
 import com.example.moviematch.datos.modelo.Pelicula;
 import com.example.moviematch.datos.preferencias.GestorPreferenciasUsuario;
 import com.example.moviematch.ui.bienvenida.BienvenidaFragment;
+import com.example.moviematch.ui.comparacion.ComparacionConsolasFragment;
 import com.example.moviematch.ui.detalle.DetallePeliculaFragment;
 import com.example.moviematch.ui.inicio.InicioFragment;
-import com.example.moviematch.ui.modogrupo.ModoGrupoFragment;
 import com.example.moviematch.ui.onboarding.OnboardingFragment;
 import com.example.moviematch.ui.recomendaciones.RecomendacionesFragment;
 import com.example.moviematch.ui.topgeneros.TopGenerosFragment;
@@ -108,8 +108,8 @@ public class ActividadPrincipal extends AppCompatActivity {
             irAVerDespues();
         } else if (itemId == R.id.nav_top_genres) {
             irATopGeneros();
-        } else if (itemId == R.id.nav_group) {
-            irAModoGrupo();
+        } else if (itemId == R.id.nav_console_comparison) {
+            irAComparacionConsolas();
         }
     }
 
@@ -147,8 +147,8 @@ public class ActividadPrincipal extends AppCompatActivity {
         mostrarFragmento(new InicioFragment(), false);
     }
 
-    public void irARecomendaciones(String mood, Integer duracionMaxMinutos, String compania) {
-        RecomendacionesFragment fragment = RecomendacionesFragment.nuevaInstancia(mood, duracionMaxMinutos, compania);
+    public void irARecomendaciones(String mood, Integer espacioDisponibleGb, String compania) {
+        RecomendacionesFragment fragment = RecomendacionesFragment.nuevaInstancia(mood, espacioDisponibleGb, compania);
         mostrarFragmento(fragment, true);
     }
 
@@ -162,14 +162,14 @@ public class ActividadPrincipal extends AppCompatActivity {
         mostrarFragmento(new VerDespuesFragment(), true);
     }
 
-    public void irAModoGrupo() {
-        resaltarMenu(R.id.nav_group);
-        mostrarFragmento(new ModoGrupoFragment(), true);
-    }
-
     public void irATopGeneros() {
         resaltarMenu(R.id.nav_top_genres);
         mostrarFragmento(new TopGenerosFragment(), true);
+    }
+
+    public void irAComparacionConsolas() {
+        resaltarMenu(R.id.nav_console_comparison);
+        mostrarFragmento(new ComparacionConsolasFragment(), true);
     }
 
     private void resaltarMenu(int itemId) {

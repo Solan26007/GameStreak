@@ -1,222 +1,548 @@
 [
   {
     "id": "juego_1",
-    "titulo": "Neon Drift",
-    "anio": 2024,
-    "duracionMin": 35,
-    "generos": ["Acción", "Deportes"],
-    "plataformas": ["PC", "PlayStation 5"],
-    "mood": "😱 Adrenalina",
-    "sinopsis": "Carreras urbanas con curvas cerradas y boosts para dominar la noche cyber.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/1.jpg"
+    "titulo": "The Legend of Zelda: Breath of the Wild",
+    "anio": 2017,
+    "duracionMin": 14,
+    "generos": [
+      "Aventura",
+      "RPG"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "mood": "😴 Chill",
+    "sinopsis": "Explora Hyrule con total libertad, resuelve santuarios y descubre secretos ancestrales.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7d/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
   },
   {
     "id": "juego_2",
-    "titulo": "Pixel Quest",
-    "anio": 2021,
-    "duracionMin": 90,
-    "generos": ["Aventura", "RPG"],
-    "plataformas": ["Nintendo Switch", "PC"],
-    "mood": "😴 Chill",
-    "sinopsis": "Explora islas flotantes, resuelve puzles y recluta aliados con habilidades únicas.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/2.jpg"
+    "titulo": "The Legend of Zelda: Tears of the Kingdom",
+    "anio": 2023,
+    "duracionMin": 16,
+    "generos": [
+      "Aventura",
+      "RPG"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "mood": "🧠 Estrategia",
+    "sinopsis": "Crea, combina y explora nuevas islas en el cielo con un Hyrule transformado.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg"
   },
   {
     "id": "juego_3",
-    "titulo": "Shadow Protocol",
-    "anio": 2023,
-    "duracionMin": 140,
-    "generos": ["Acción", "Estrategia"],
-    "plataformas": ["Xbox Series", "PC"],
-    "mood": "🧠 Estrategia",
-    "sinopsis": "Infiltración táctica con gadgets, rutas alternativas y decisiones en tiempo real.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/3.jpg"
+    "titulo": "God of War Ragnarök",
+    "anio": 2022,
+    "duracionMin": 90,
+    "generos": [
+      "Acción",
+      "Aventura"
+    ],
+    "plataformas": [
+      "PlayStation 5"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Kratos y Atreus enfrentan el Ragnarök en una aventura épica por los nueve reinos.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg"
   },
   {
     "id": "juego_4",
-    "titulo": "Campus Party",
-    "anio": 2020,
-    "duracionMin": 45,
-    "generos": ["Aventura", "Deportes"],
-    "plataformas": ["Mobile"],
-    "mood": "😂 Party",
-    "sinopsis": "Minijuegos rápidos para jugar en grupo con retos locos y risas aseguradas.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/4.jpg"
+    "titulo": "Marvel's Spider-Man 2",
+    "anio": 2023,
+    "duracionMin": 98,
+    "generos": [
+      "Acción",
+      "Aventura"
+    ],
+    "plataformas": [
+      "PlayStation 5"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Peter Parker y Miles Morales se enfrentan a nuevos villanos en una Nueva York expandida.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/Spider-Man_2_%28video_game%29_cover_art.jpg"
   },
   {
     "id": "juego_5",
-    "titulo": "Luz Abisal",
-    "anio": 2019,
-    "duracionMin": 110,
-    "generos": ["Terror", "Aventura"],
-    "plataformas": ["PlayStation 5"],
-    "mood": "😱 Adrenalina",
-    "sinopsis": "Explora un laboratorio submarino donde cada pasillo esconde un susto distinto.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/5.jpg"
+    "titulo": "Elden Ring",
+    "anio": 2022,
+    "duracionMin": 60,
+    "generos": [
+      "RPG",
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "🧠 Estrategia",
+    "sinopsis": "Un mundo abierto desafiante con combate exigente y lore profundo.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg"
   },
   {
     "id": "juego_6",
-    "titulo": "Frontera RPG",
-    "anio": 2022,
-    "duracionMin": 200,
-    "generos": ["RPG", "Acción"],
-    "plataformas": ["PC", "Xbox Series"],
-    "mood": "🧠 Estrategia",
-    "sinopsis": "Mundos abiertos, reputaciones y combates desafiantes con jefes difíciles.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/6.jpg"
+    "titulo": "Halo Infinite",
+    "anio": 2021,
+    "duracionMin": 50,
+    "generos": [
+      "Acción"
+    ],
+    "plataformas": [
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Master Chief regresa con una campaña abierta y un multijugador competitivo.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Halo_Infinite.png"
   },
   {
     "id": "juego_7",
-    "titulo": "Sky Builders",
+    "titulo": "Forza Horizon 5",
     "anio": 2021,
-    "duracionMin": 75,
-    "generos": ["Estrategia", "Aventura"],
-    "plataformas": ["PC"],
-    "mood": "😴 Chill",
-    "sinopsis": "Construye ciudades en las nubes y gestiona recursos con calma y creatividad.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/7.jpg"
+    "duracionMin": 110,
+    "generos": [
+      "Deportes",
+      "Acción"
+    ],
+    "plataformas": [
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "😂 Party",
+    "sinopsis": "Carreras en mundo abierto con eventos espectaculares y cientos de autos.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Forza_Horizon_5_cover_art.jpg"
   },
   {
     "id": "juego_8",
-    "titulo": "Sprint Galaxy",
-    "anio": 2018,
-    "duracionMin": 50,
-    "generos": ["Deportes", "Acción"],
-    "plataformas": ["Nintendo Switch", "Mobile"],
-    "mood": "😂 Party",
-    "sinopsis": "Carreras arcade con ítems locos y pistas galácticas para partidas cortas.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/8.jpg"
+    "titulo": "Cyberpunk 2077",
+    "anio": 2020,
+    "duracionMin": 70,
+    "generos": [
+      "RPG",
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "🧠 Estrategia",
+    "sinopsis": "Explora Night City con decisiones narrativas y estilo futurista.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg"
   },
   {
     "id": "juego_9",
-    "titulo": "Hexa Tactics",
-    "anio": 2024,
-    "duracionMin": 160,
-    "generos": ["Estrategia"],
-    "plataformas": ["PC", "PlayStation 5"],
+    "titulo": "Baldur's Gate 3",
+    "anio": 2023,
+    "duracionMin": 122,
+    "generos": [
+      "RPG",
+      "Estrategia"
+    ],
+    "plataformas": [
+      "PC",
+      "PlayStation 5"
+    ],
     "mood": "🧠 Estrategia",
-    "sinopsis": "Batallas por turnos con combos tácticos y mapas modulares.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/9.jpg"
+    "sinopsis": "Una aventura de rol profunda con decisiones que cambian la campaña.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Baldur%27s_Gate_3_cover_art.jpg"
   },
   {
     "id": "juego_10",
-    "titulo": "Bosque Arcade",
-    "anio": 2017,
-    "duracionMin": 30,
-    "generos": ["Aventura"],
-    "plataformas": ["Mobile"],
-    "mood": "😴 Chill",
-    "sinopsis": "Explora un bosque encantado en partidas cortas con coleccionables secretos.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/10.jpg"
+    "titulo": "Hades",
+    "anio": 2020,
+    "duracionMin": 15,
+    "generos": [
+      "Acción",
+      "RPG"
+    ],
+    "plataformas": [
+      "Nintendo Switch",
+      "PC"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Roguelike frenético con historia, armas y mejoras constantes.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Hades_cover_art.jpg"
   },
   {
     "id": "juego_11",
-    "titulo": "Arena Pulse",
-    "anio": 2022,
-    "duracionMin": 60,
-    "generos": ["Acción"],
-    "plataformas": ["PC", "PlayStation 5"],
-    "mood": "😱 Adrenalina",
-    "sinopsis": "Combate rápido en arenas neon con habilidades especiales y ritmo intenso.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/11.jpg"
+    "titulo": "Stardew Valley",
+    "anio": 2016,
+    "duracionMin": 2,
+    "generos": [
+      "Aventura"
+    ],
+    "plataformas": [
+      "PC",
+      "Nintendo Switch",
+      "Mobile"
+    ],
+    "mood": "😴 Chill",
+    "sinopsis": "Crea tu granja, conoce al pueblo y disfruta de una vida relajada.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Stardew_Valley_cover_art.png"
   },
   {
     "id": "juego_12",
-    "titulo": "Ritmo Switch",
-    "anio": 2019,
-    "duracionMin": 40,
-    "generos": ["Deportes"],
-    "plataformas": ["Nintendo Switch"],
-    "mood": "😂 Party",
-    "sinopsis": "Baila y marca combos con controles de movimiento para competir con amigos.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/12.jpg"
+    "titulo": "Animal Crossing: New Horizons",
+    "anio": 2020,
+    "duracionMin": 6,
+    "generos": [
+      "Aventura"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "mood": "😴 Chill",
+    "sinopsis": "Diseña tu isla, decora tu casa y comparte con tus vecinos.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg"
   },
   {
     "id": "juego_13",
-    "titulo": "Cripta 9",
-    "anio": 2020,
-    "duracionMin": 95,
-    "generos": ["Terror"],
-    "plataformas": ["PC", "Xbox Series"],
-    "mood": "😱 Adrenalina",
-    "sinopsis": "Sobrevive en una cripta con puzzles y una presencia que no te deja respirar.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/13.jpg"
+    "titulo": "Mario Kart 8 Deluxe",
+    "anio": 2017,
+    "duracionMin": 8,
+    "generos": [
+      "Deportes",
+      "Acción"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "mood": "😂 Party",
+    "sinopsis": "Carreras arcade con objetos, pistas icónicas y multijugador local.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_8_Deluxe.jpg"
   },
   {
     "id": "juego_14",
-    "titulo": "Torre Zenith",
+    "titulo": "EA Sports FC 24",
     "anio": 2023,
-    "duracionMin": 180,
-    "generos": ["RPG", "Estrategia"],
-    "plataformas": ["PlayStation 5"],
-    "mood": "🧠 Estrategia",
-    "sinopsis": "Construye tu equipo piso a piso con habilidades combinables y decisiones clave.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/14.jpg"
+    "duracionMin": 50,
+    "generos": [
+      "Deportes"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "😂 Party",
+    "sinopsis": "Fútbol con licencias oficiales, Ultimate Team y modos competitivos.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/4/40/EA_Sports_FC_24_cover.jpg"
   },
   {
     "id": "juego_15",
-    "titulo": "Volt Riders",
-    "anio": 2021,
-    "duracionMin": 70,
-    "generos": ["Acción", "Deportes"],
-    "plataformas": ["Xbox Series", "PC"],
+    "titulo": "Call of Duty: Modern Warfare III",
+    "anio": 2023,
+    "duracionMin": 150,
+    "generos": [
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "PC"
+    ],
     "mood": "😱 Adrenalina",
-    "sinopsis": "Carreras con motos eléctricas y torneos rápidos en escenarios futuristas.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/15.jpg"
+    "sinopsis": "Shooter cinematográfico con multijugador y modos cooperativos.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/Call_of_Duty_Modern_Warfare_III_%282023%29_cover.jpg"
   },
   {
     "id": "juego_16",
-    "titulo": "Finca Cozy",
-    "anio": 2022,
-    "duracionMin": 120,
-    "generos": ["Aventura"],
-    "plataformas": ["Nintendo Switch", "Mobile"],
-    "mood": "😴 Chill",
-    "sinopsis": "Cultiva, decora y conoce personajes entrañables en un pueblo relajante.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/16.jpg"
+    "titulo": "Fortnite",
+    "anio": 2017,
+    "duracionMin": 35,
+    "generos": [
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "Nintendo Switch",
+      "PC",
+      "Mobile"
+    ],
+    "mood": "😂 Party",
+    "sinopsis": "Battle royale con eventos en vivo, construcción y temporadas constantes.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/0/0e/FortniteCoverArt.png"
   },
   {
     "id": "juego_17",
-    "titulo": "Metro Clash",
-    "anio": 2019,
-    "duracionMin": 55,
-    "generos": ["Acción"],
-    "plataformas": ["PC"],
-    "mood": "😂 Party",
-    "sinopsis": "Shooter rápido con partidas cortas y mapas compactos para jugar con amigos.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/17.jpg"
+    "titulo": "Genshin Impact",
+    "anio": 2020,
+    "duracionMin": 30,
+    "generos": [
+      "RPG",
+      "Aventura"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "PC",
+      "Mobile"
+    ],
+    "mood": "😴 Chill",
+    "sinopsis": "Explora Teyvat con personajes coleccionables y eventos frecuentes.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Genshin_Impact_cover.jpg"
   },
   {
     "id": "juego_18",
-    "titulo": "Reino Cristal",
-    "anio": 2018,
-    "duracionMin": 150,
-    "generos": ["RPG", "Aventura"],
-    "plataformas": ["PlayStation 5", "PC"],
-    "mood": "🧠 Estrategia",
-    "sinopsis": "Viaja por reinos en guerra con una narrativa épica y farmeo opcional.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/18.jpg"
+    "titulo": "Apex Legends",
+    "anio": 2019,
+    "duracionMin": 60,
+    "generos": [
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "Nintendo Switch",
+      "PC"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Battle royale por escuadras con héroes y habilidades únicas.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg"
   },
   {
     "id": "juego_19",
-    "titulo": "Circuito F2P",
-    "anio": 2024,
-    "duracionMin": 80,
-    "generos": ["Deportes", "Acción"],
-    "plataformas": ["Mobile"],
-    "mood": "😂 Party",
-    "sinopsis": "Compite en ligas rápidas con eventos diarios y microtransacciones opcionales.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/19.jpg"
+    "titulo": "Resident Evil 4",
+    "anio": 2023,
+    "duracionMin": 67,
+    "generos": [
+      "Terror",
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Remake del clásico con combate moderno, tensión constante y supervivencia.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/d8/Resident_Evil_4_%282023%29_cover_art.jpg"
   },
   {
     "id": "juego_20",
-    "titulo": "Eclipse Dungeon",
+    "titulo": "Diablo IV",
     "anio": 2023,
-    "duracionMin": 210,
-    "generos": ["RPG", "Terror"],
-    "plataformas": ["PC", "Xbox Series"],
+    "duracionMin": 90,
+    "generos": [
+      "RPG",
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "PC"
+    ],
     "mood": "😱 Adrenalina",
-    "sinopsis": "Un roguelike desafiante con jefes difíciles y caminos oscuros por descubrir.",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/20.jpg"
+    "sinopsis": "Action RPG oscuro con temporadas, botín y cooperación online.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Diablo_IV_cover_art.png"
+  },
+  {
+    "id": "juego_21",
+    "titulo": "Hogwarts Legacy",
+    "anio": 2023,
+    "duracionMin": 85,
+    "generos": [
+      "RPG",
+      "Aventura"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "Nintendo Switch",
+      "PC"
+    ],
+    "mood": "🧠 Estrategia",
+    "sinopsis": "Vive tu propia historia en el mundo mágico con exploración y hechizos.",
+    "posterUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/capsule_616x353.jpg"
+  },
+  {
+    "id": "juego_22",
+    "titulo": "Red Dead Redemption 2",
+    "anio": 2018,
+    "duracionMin": 120,
+    "generos": [
+      "Aventura",
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "🧠 Estrategia",
+    "sinopsis": "Una historia cinematográfica del viejo oeste con mundo abierto detallado.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg"
+  },
+  {
+    "id": "juego_23",
+    "titulo": "Final Fantasy XVI",
+    "anio": 2023,
+    "duracionMin": 90,
+    "generos": [
+      "RPG",
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Fantasia épica con combates en tiempo real y criaturas colosales.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5c/Final_Fantasy_XVI_cover.png"
+  },
+  {
+    "id": "juego_24",
+    "titulo": "The Witcher 3: Wild Hunt",
+    "anio": 2015,
+    "duracionMin": 50,
+    "generos": [
+      "RPG",
+      "Aventura"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "Nintendo Switch",
+      "PC"
+    ],
+    "mood": "🧠 Estrategia",
+    "sinopsis": "Caza monstruos, toma decisiones cruciales y recorre reinos en guerra.",
+    "posterUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_616x353.jpg"
+  },
+  {
+    "id": "juego_25",
+    "titulo": "Splatoon 3",
+    "anio": 2022,
+    "duracionMin": 6,
+    "generos": [
+      "Acción",
+      "Deportes"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "mood": "😂 Party",
+    "sinopsis": "Batallas de tinta en equipo con modos competitivos y eventos.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/Splatoon_3_cover_art.png"
+  },
+  {
+    "id": "juego_26",
+    "titulo": "Nintendo Switch Sports",
+    "anio": 2022,
+    "duracionMin": 5,
+    "generos": [
+      "Deportes"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "mood": "😂 Party",
+    "sinopsis": "Minijuegos deportivos con controles de movimiento y multijugador.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/Nintendo_Switch_Sports.jpg"
+  },
+  {
+    "id": "juego_27",
+    "titulo": "Sea of Thieves",
+    "anio": 2018,
+    "duracionMin": 50,
+    "generos": [
+      "Aventura",
+      "Acción"
+    ],
+    "plataformas": [
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "😂 Party",
+    "sinopsis": "Aventuras piratas cooperativas con exploración, tesoros y combate naval.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/Sea_of_Thieves_cover_art.png"
+  },
+  {
+    "id": "juego_28",
+    "titulo": "Minecraft",
+    "anio": 2011,
+    "duracionMin": 2,
+    "generos": [
+      "Aventura"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "Nintendo Switch",
+      "PC",
+      "Mobile"
+    ],
+    "mood": "😴 Chill",
+    "sinopsis": "Construye, explora y sobrevive en un mundo infinito de bloques.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
+  },
+  {
+    "id": "juego_29",
+    "titulo": "Metroid Dread",
+    "anio": 2021,
+    "duracionMin": 4,
+    "generos": [
+      "Acción",
+      "Aventura"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Samus Aran vuelve en una aventura 2D con persecuciones intensas.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Metroid_Dread.jpg"
+  },
+  {
+    "id": "juego_30",
+    "titulo": "Starfield",
+    "anio": 2023,
+    "duracionMin": 125,
+    "generos": [
+      "RPG",
+      "Aventura"
+    ],
+    "plataformas": [
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "🧠 Estrategia",
+    "sinopsis": "Explora sistemas estelares, crea naves y toma decisiones en el espacio.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/Starfield_cover_art.jpg"
+  },
+  {
+    "id": "juego_31",
+    "titulo": "Super Smash Bros. Ultimate",
+    "anio": 2018,
+    "duracionMin": 14,
+    "generos": [
+      "Acción",
+      "Deportes"
+    ],
+    "plataformas": [
+      "Nintendo Switch"
+    ],
+    "mood": "😂 Party",
+    "sinopsis": "Peleas frenéticas con personajes icónicos y modos locales.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg"
+  },
+  {
+    "id": "juego_32",
+    "titulo": "Resident Evil 2",
+    "anio": 2019,
+    "duracionMin": 26,
+    "generos": [
+      "Terror",
+      "Acción"
+    ],
+    "plataformas": [
+      "PlayStation 5",
+      "Xbox Series",
+      "PC"
+    ],
+    "mood": "😱 Adrenalina",
+    "sinopsis": "Remake del survival horror con Leon y Claire en Raccoon City.",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Resident_Evil_2_Remake_Cover_Art.jpg"
   }
 ]
