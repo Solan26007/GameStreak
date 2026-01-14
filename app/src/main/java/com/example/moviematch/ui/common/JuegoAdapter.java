@@ -107,7 +107,7 @@ public class JuegoAdapter extends RecyclerView.Adapter<JuegoAdapter.PeliculaView
             txtPlataformas.setText(String.format(Locale.getDefault(), "Disponible en: %s", plataformasTexto));
 
             Glide.with(context)
-                    .load(buildGlideUrl(pelicula.getPosterUrl()))
+                    .load(resolverPoster(context, pelicula.getPosterUrl()))
                     .placeholder(R.mipmap.ic_launcher)
                     .error(R.mipmap.ic_launcher)
                     .into(imgPoster);
@@ -117,6 +117,29 @@ public class JuegoAdapter extends RecyclerView.Adapter<JuegoAdapter.PeliculaView
                 listener.onPeliculaLongClick(pelicula);
                 return true;
             });
+        }
+
+        private Object resolverPoster(Context context, String posterUrl) {
+            if (posterUrl == null) {
+                return null;
+            }
+            String trimmed = posterUrl.trim();
+            if (trimmed.isEmpty()) {
+                return null;
+            }
+            String resourceName = null;
+            if (trimmed.startsWith("drawable://")) {
+                resourceName = trimmed.substring("drawable://".length());
+            } else if (trimmed.startsWith("drawable/")) {
+                resourceName = trimmed.substring("drawable/".length());
+            }
+            if (resourceName != null && !resourceName.isEmpty()) {
+                int resId = context.getResources().getIdentifier(resourceName, "drawable", context.getPackageName());
+                if (resId != 0) {
+                    return resId;
+                }
+            }
+            return buildGlideUrl(trimmed);
         }
 
         private GlideUrl buildGlideUrl(String url) {
