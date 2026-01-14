@@ -17,7 +17,7 @@ import com.example.moviematch.datos.MotorRecomendaciones;
 import com.example.moviematch.datos.modelo.Pelicula;
 import com.example.moviematch.datos.preferencias.GestorPreferenciasUsuario;
 import com.example.moviematch.datos.preferencias.PreferenciasUsuario;
-import com.example.moviematch.ui.common.PeliculaAdapter;
+import com.example.moviematch.ui.common.JuegoAdapter;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -29,7 +29,7 @@ public class RecomendacionesFragment extends Fragment {
     private static final String ARG_ESPACIO = "arg_espacio";
     private static final String ARG_COMPANIA = "arg_compania";
 
-    private PeliculaAdapter peliculaAdapter;
+    private JuegoAdapter peliculaAdapter;
     private ExecutorService executorService;
     private MotorRecomendaciones motorRecomendaciones;
     private GestorPreferenciasUsuario gestorPreferenciasUsuario;
@@ -57,7 +57,7 @@ public class RecomendacionesFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         RecyclerView recyclerView = view.findViewById(R.id.recyclerMovies);
 
-        peliculaAdapter = new PeliculaAdapter(new PeliculaAdapter.OnPeliculaClickListener() {
+        peliculaAdapter = new JuegoAdapter(new JuegoAdapter.OnPeliculaClickListener() {
             @Override
             public void onPeliculaClick(Pelicula pelicula) {
                 ((ActividadPrincipal) requireActivity()).irADetalle(pelicula);

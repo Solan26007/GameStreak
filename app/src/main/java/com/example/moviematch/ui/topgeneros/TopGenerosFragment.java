@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.moviematch.ActividadPrincipal;
 import com.example.moviematch.R;
 import com.example.moviematch.datos.modelo.Pelicula;
-import com.example.moviematch.ui.common.PeliculaAdapter;
+import com.example.moviematch.ui.common.JuegoAdapter;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -35,7 +35,7 @@ public class TopGenerosFragment extends Fragment {
     private static final int LIMITE_TOP = 5;
 
     private final Type tipoLista = new TypeToken<List<Pelicula>>() {}.getType();
-    private PeliculaAdapter peliculaAdapter;
+    private JuegoAdapter peliculaAdapter;
     private TextView txtEmpty;
 
     @Nullable
@@ -52,7 +52,7 @@ public class TopGenerosFragment extends Fragment {
         RecyclerView recyclerView = view.findViewById(R.id.recyclerTopGenres);
         txtEmpty = view.findViewById(R.id.txtEmptyTopGenres);
 
-        peliculaAdapter = new PeliculaAdapter(new PeliculaAdapter.OnPeliculaClickListener() {
+        peliculaAdapter = new JuegoAdapter(new JuegoAdapter.OnPeliculaClickListener() {
             @Override
             public void onPeliculaClick(Pelicula pelicula) {
                 ((ActividadPrincipal) requireActivity()).irADetalle(pelicula);

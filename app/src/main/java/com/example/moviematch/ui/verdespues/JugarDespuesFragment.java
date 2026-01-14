@@ -15,17 +15,17 @@ import com.example.moviematch.ActividadPrincipal;
 import com.example.moviematch.R;
 import com.example.moviematch.datos.db.RepositorioWatchlistSQLite;
 import com.example.moviematch.datos.modelo.Pelicula;
-import com.example.moviematch.ui.common.PeliculaAdapter;
+import com.example.moviematch.ui.common.JuegoAdapter;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class VerDespuesFragment extends Fragment {
+public class JugarDespuesFragment extends Fragment {
 
     private RepositorioWatchlistSQLite repositorioWatchlistSQLite;
     private ExecutorService executorService;
-    private PeliculaAdapter peliculaAdapter;
+    private JuegoAdapter peliculaAdapter;
 
     @Nullable
     @Override
@@ -40,7 +40,7 @@ public class VerDespuesFragment extends Fragment {
         executorService = Executors.newSingleThreadExecutor();
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerWatchlist);
-        peliculaAdapter = new PeliculaAdapter(new PeliculaAdapter.OnPeliculaClickListener() {
+        peliculaAdapter = new JuegoAdapter(new JuegoAdapter.OnPeliculaClickListener() {
             @Override
             public void onPeliculaClick(Pelicula pelicula) {
                 ((ActividadPrincipal) requireActivity()).irADetalle(pelicula);
