@@ -61,7 +61,7 @@
     ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Peter Parker y Miles Morales se enfrentan a nuevos villanos en una Nueva York expandida.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/Spider-Man_2_%28video_game%29_cover_art.jpg"
+    "posterUrl": "https://placehold.co/300x450/png?text=Marvel%27s%20Spider-Man%202"
   },
   {
     "id": "juego_5",
@@ -147,7 +147,7 @@
     ],
     "mood": "🧠 Estrategia",
     "sinopsis": "Una aventura de rol profunda con decisiones que cambian la campaña.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Baldur%27s_Gate_3_cover_art.jpg"
+    "posterUrl": "https://placehold.co/300x450/png?text=Baldur%27s%20Gate%203"
   },
   {
     "id": "juego_10",
@@ -229,7 +229,7 @@
     ],
     "mood": "😂 Party",
     "sinopsis": "Fútbol con licencias oficiales, Ultimate Team y modos competitivos.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/4/40/EA_Sports_FC_24_cover.jpg"
+    "posterUrl": "https://placehold.co/300x450/png?text=EA%20Sports%20FC%2024"
   },
   {
     "id": "juego_15",
@@ -246,7 +246,7 @@
     ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Shooter cinematográfico con multijugador y modos cooperativos.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/Call_of_Duty_Modern_Warfare_III_%282023%29_cover.jpg"
+    "posterUrl": "https://placehold.co/300x450/png?text=Call%20of%20Duty%3A%20Modern%20Warfare%20III"
   },
   {
     "id": "juego_16",
@@ -319,7 +319,7 @@
     ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Remake del clásico con combate moderno, tensión constante y supervivencia.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/d8/Resident_Evil_4_%282023%29_cover_art.jpg"
+    "posterUrl": "https://placehold.co/300x450/png?text=Resident%20Evil%204"
   },
   {
     "id": "juego_20",
@@ -337,7 +337,7 @@
     ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Action RPG oscuro con temporadas, botín y cooperación online.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Diablo_IV_cover_art.png"
+    "posterUrl": "https://placehold.co/300x450/png?text=Diablo%20IV"
   },
   {
     "id": "juego_21",
@@ -390,7 +390,7 @@
     ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Fantasia épica con combates en tiempo real y criaturas colosales.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5c/Final_Fantasy_XVI_cover.png"
+    "posterUrl": "https://placehold.co/300x450/png?text=Final%20Fantasy%20XVI"
   },
   {
     "id": "juego_24",
@@ -425,7 +425,7 @@
     ],
     "mood": "😂 Party",
     "sinopsis": "Batallas de tinta en equipo con modos competitivos y eventos.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/Splatoon_3_cover_art.png"
+    "posterUrl": "https://placehold.co/300x450/png?text=Splatoon%203"
   },
   {
     "id": "juego_26",
@@ -440,7 +440,7 @@
     ],
     "mood": "😂 Party",
     "sinopsis": "Minijuegos deportivos con controles de movimiento y multijugador.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/Nintendo_Switch_Sports.jpg"
+    "posterUrl": "https://placehold.co/300x450/png?text=Nintendo%20Switch%20Sports"
   },
   {
     "id": "juego_27",
@@ -509,7 +509,7 @@
     ],
     "mood": "🧠 Estrategia",
     "sinopsis": "Explora sistemas estelares, crea naves y toma decisiones en el espacio.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/Starfield_cover_art.jpg"
+    "posterUrl": "https://placehold.co/300x450/png?text=Starfield"
   },
   {
     "id": "juego_31",
@@ -543,6 +543,6 @@
     ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Remake del survival horror con Leon y Claire en Raccoon City.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Resident_Evil_2_Remake_Cover_Art.jpg"
+    "posterUrl": "https://placehold.co/300x450/png?text=Resident%20Evil%202"
   }
 ]
