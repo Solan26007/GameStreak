@@ -20,12 +20,12 @@ import com.example.moviematch.datos.modelo.Pelicula;
 import com.example.moviematch.datos.preferencias.GestorPreferenciasUsuario;
 import com.example.moviematch.ui.bienvenida.BienvenidaFragment;
 import com.example.moviematch.ui.comparacion.ComparacionConsolasFragment;
-import com.example.moviematch.ui.detalle.DetallePeliculaFragment;
+import com.example.moviematch.ui.detalle.DetalleJuegoFragment;
 import com.example.moviematch.ui.inicio.InicioFragment;
 import com.example.moviematch.ui.onboarding.OnboardingFragment;
 import com.example.moviematch.ui.recomendaciones.RecomendacionesFragment;
 import com.example.moviematch.ui.topgeneros.TopGenerosFragment;
-import com.example.moviematch.ui.verdespues.VerDespuesFragment;
+import com.example.moviematch.ui.verdespues.JugarDespuesFragment;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -153,13 +153,13 @@ public class ActividadPrincipal extends AppCompatActivity {
     }
 
     public void irADetalle(Pelicula pelicula) {
-        DetallePeliculaFragment fragment = DetallePeliculaFragment.nuevaInstancia(pelicula);
+        DetalleJuegoFragment fragment = DetalleJuegoFragment.nuevaInstancia(pelicula);
         mostrarFragmento(fragment, true);
     }
 
     public void irAVerDespues() {
         resaltarMenu(R.id.nav_watchlist);
-        mostrarFragmento(new VerDespuesFragment(), true);
+        mostrarFragmento(new JugarDespuesFragment(), true);
     }
 
     public void irATopGeneros() {

@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.stream.Collectors;
 
-public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.PeliculaViewHolder> {
+public class JuegoAdapter extends RecyclerView.Adapter<JuegoAdapter.PeliculaViewHolder> {
 
     public interface OnPeliculaClickListener {
         void onPeliculaClick(Pelicula pelicula);
@@ -32,7 +32,7 @@ public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.Pelicu
     private final List<Pelicula> peliculas = new ArrayList<>();
     private final OnPeliculaClickListener listener;
 
-    public PeliculaAdapter(OnPeliculaClickListener listener) {
+    public JuegoAdapter(OnPeliculaClickListener listener) {
         this.listener = listener;
     }
 
@@ -61,7 +61,7 @@ public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.Pelicu
     @NonNull
     @Override
     public PeliculaViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_movie, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_game, parent, false);
         return new PeliculaViewHolder(view);
     }
 

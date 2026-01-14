@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_app_gradient"
-    tools:context=".ui.verdespues.VerDespuesFragment">
+    tools:context=".ui.verdespues.JugarDespuesFragment">
 
     <LinearLayout
         android:id="@+id/layoutWatchlistHeader"
@@ -37,7 +37,7 @@
         android:layout_height="0dp"
         android:padding="16dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_movie"
+        tools:listitem="@layout/item_game"
         app:layout_constraintTop_toBottomOf="@id/layoutWatchlistHeader"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

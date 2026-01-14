@@ -27,7 +27,7 @@ import java.util.Locale;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class DetallePeliculaFragment extends Fragment {
+public class DetalleJuegoFragment extends Fragment {
 
     private static final String ARG_PELICULA = "arg_pelicula";
 
@@ -36,8 +36,8 @@ public class DetallePeliculaFragment extends Fragment {
     private RepositorioWatchlistSQLite repositorioWatchlistSQLite;
     private RepositorioDescartadasSQLite repositorioDescartadasSQLite;
 
-    public static DetallePeliculaFragment nuevaInstancia(Pelicula pelicula) {
-        DetallePeliculaFragment fragment = new DetallePeliculaFragment();
+    public static DetalleJuegoFragment nuevaInstancia(Pelicula pelicula) {
+        DetalleJuegoFragment fragment = new DetalleJuegoFragment();
         Bundle args = new Bundle();
         args.putSerializable(ARG_PELICULA, pelicula);
         fragment.setArguments(args);
@@ -47,7 +47,7 @@ public class DetallePeliculaFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_movie_detail, container, false);
+        return inflater.inflate(R.layout.fragment_game_detail, container, false);
     }
 
     @Override
