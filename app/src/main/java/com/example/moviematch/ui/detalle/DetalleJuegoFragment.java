@@ -90,7 +90,7 @@ public class DetalleJuegoFragment extends Fragment {
         }
 
         Glide.with(this)
-                .load(buildGlideUrl(pelicula.getPosterUrl()))
+                .load(resolverPoster(requireContext(), pelicula.getPosterUrl()))
                 .placeholder(R.mipmap.ic_launcher)
                 .error(R.mipmap.ic_launcher)
                 .into(imgPoster);
@@ -137,6 +137,29 @@ public class DetalleJuegoFragment extends Fragment {
         return new GlideUrl(url, new LazyHeaders.Builder()
                 .addHeader("User-Agent", "Mozilla/5.0")
                 .build());
+    }
+
+    private Object resolverPoster(@NonNull android.content.Context context, String posterUrl) {
+        if (posterUrl == null) {
+            return null;
+        }
+        String trimmed = posterUrl.trim();
+        if (trimmed.isEmpty()) {
+            return null;
+        }
+        String resourceName = null;
+        if (trimmed.startsWith("drawable://")) {
+            resourceName = trimmed.substring("drawable://".length());
+        } else if (trimmed.startsWith("drawable/")) {
+            resourceName = trimmed.substring("drawable/".length());
+        }
+        if (resourceName != null && !resourceName.isEmpty()) {
+            int resId = context.getResources().getIdentifier(resourceName, "drawable", context.getPackageName());
+            if (resId != 0) {
+                return resId;
+            }
+        }
+        return buildGlideUrl(trimmed);
     }
 
     @Override
