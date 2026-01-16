@@ -13,7 +13,7 @@
     ],
     "mood": "😴 Chill",
     "sinopsis": "Explora Hyrule con total libertad, resuelve santuarios y descubre secretos ancestrales.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7d/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+    "posterUrl": "drawable/img_1"
   },
   {
     "id": "juego_2",
@@ -181,7 +181,7 @@
     ],
     "mood": "😴 Chill",
     "sinopsis": "Crea tu granja, conoce al pueblo y disfruta de una vida relajada.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Stardew_Valley_cover_art.png"
+    "posterUrl": "drawable/stardew"
   },
   {
     "id": "juego_12",
@@ -212,7 +212,7 @@
     ],
     "mood": "😂 Party",
     "sinopsis": "Carreras arcade con objetos, pistas icónicas y multijugador local.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_8_Deluxe.jpg"
+    "posterUrl": "drawable/mariok8"
   },
   {
     "id": "juego_14",
@@ -265,7 +265,7 @@
     ],
     "mood": "😂 Party",
     "sinopsis": "Battle royale con eventos en vivo, construcción y temporadas constantes.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/0/0e/FortniteCoverArt.png"
+    "posterUrl": "drawable/fortnite"
   },
   {
     "id": "juego_17",
@@ -283,7 +283,7 @@
     ],
     "mood": "😴 Chill",
     "sinopsis": "Explora Teyvat con personajes coleccionables y eventos frecuentes.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Genshin_Impact_cover.jpg"
+    "posterUrl": "drawable/genshin"
   },
   {
     "id": "juego_18",
@@ -457,7 +457,7 @@
     ],
     "mood": "😂 Party",
     "sinopsis": "Aventuras piratas cooperativas con exploración, tesoros y combate naval.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/Sea_of_Thieves_cover_art.png"
+    "posterUrl": "drawable/sof"
   },
   {
     "id": "juego_28",
@@ -476,7 +476,7 @@
     ],
     "mood": "😴 Chill",
     "sinopsis": "Construye, explora y sobrevive en un mundo infinito de bloques.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
+    "posterUrl": "drawable/mine"
   },
   {
     "id": "juego_29",
@@ -492,7 +492,7 @@
     ],
     "mood": "😱 Adrenalina",
     "sinopsis": "Samus Aran vuelve en una aventura 2D con persecuciones intensas.",
-    "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Metroid_Dread.jpg"
+    "posterUrl": "drawable/met"
   },
   {
     "id": "juego_30",
